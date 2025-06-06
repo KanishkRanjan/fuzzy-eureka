@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 // Define the Institution Schema
@@ -189,4 +189,5 @@ const InstitutionSchema = new Schema({
 });
 
 // Create and export the model
-module.exports = mongoose.model('Institution', InstitutionSchema);
+const Institution = mongoose.model('Institution', InstitutionSchema);
+export default Institution;

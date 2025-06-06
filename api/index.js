@@ -1,13 +1,15 @@
-const express = require("express");
+import express from "express";
 const app = express();
 const PORT = 3000;
-const cors = require("cors");
+import cors from "cors";
 
-const mongoose = require("mongoose");
-const donenv = require("dotenv");
-donenv.config();
+import mongoose from "mongoose";
 
-const Institution = require("./colleges_schema");
+import serverless from "serverless-http";
+
+import Institution from "../colleges_schema.js";
+
+import connectDB from "../connection.js";
 
 app.use(
   cors({
@@ -18,17 +20,16 @@ app.use(
 // Middleware (optional)
 app.use(express.json());
 
-mongoose
-  .connect(process.env.MONGO_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then((res) => {
-    console.log(mongoose.connection.name);
-    console.log("✅ Connected to MongoDB");
-  })
-  .catch((err) => console.error("❌ MongoDB connection error:", err));
 
+
+app.use(async (req, res, next) => {
+  await connectDB();
+  next();
+});
+
+app.get("/", (req, res) => {
+  res.send("Welcome to the Shiksha API!");
+});
 
 app.post("/api/save-applied-college", async (req, res) => {
   const { name , email , phone , college_id , message } = req.body;
@@ -294,6 +295,4 @@ app.get("/api/get-top-list", async (req, res) => {
   }
 });
 // Start server
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
+export default serverless(app);
