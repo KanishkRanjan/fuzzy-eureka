@@ -1,0 +1,20 @@
+{
+    "institution_type": "Government",
+    "entrance_exams": "CAT, VITEEE, JEE Main, CET, MAT",
+    "official_website": "http://kade-goswami.org/",
+    "admission_process": "Apply online, qualify CLAT, document verification, pay fees",
+    "required_documents": "Identity Proof (Aadhaar/Passport), Entrance Exam Scorecard, Passport-size Photos, Domicile Certificate, Transfer Certificate",
+    "course_fee_structure": {
+        "M.Tech": "INR 59K - 626K per annum",
+        "BBA": "INR 286K - 473K per annum",
+        "B.Com": "INR 209K - 921K per annum",
+        "B.Sc": "INR 252K - 442K per annum",
+        "LLB": "INR 107K - 1093K per annum"
+    },
+    "placements": {
+        "average_salary": "INR 7.6 LPA",
+        "highest_salary": "INR 27.2 LPA",
+        "placement_rate": "81%"
+    },
+    "top_recruiters": "Tata Motors, HCL, Capgemini, L&T, Amazon"
+}
