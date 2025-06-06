@@ -127,7 +127,7 @@ def generate_institution_data():
 def save_to_mongodb(data, db_name='shiksha_data', collection_name='institutions'):
     try:
         # Connect to MongoDB (replace with your MongoDB Atlas connection string if needed)
-        client = MongoClient('mongodb+srv://anandrajblr2025:passwordka@cluster0.26v6pqh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+        client = MongoClient('')
         
         # Access database and collection
         db = client[db_name]
