@@ -2,14 +2,19 @@ import random
 from faker import Faker
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure, OperationFailure
+from random import randint
+
 import time
 import json
+from dotenv import load_dotenv
+import os
 
-from random import randint
+load_dotenv() 
+
+MONGO_URI = os.getenv('MONGO_URI', 'mongodb://localhost:27017/')  # Default to local MongoDB if not set
 
 # Initialize Faker for realistic data
 fake = Faker('en_IN')
-
 # Lists for random data generation
 institution_types = ['Private', 'Government', 'Public-Private Partnership']
 entrance_exams = ['JEE Main', 'NEET', 'CAT', 'MAT', 'GATE', 'CLAT', 'SAAT', 'BITSAT', 'VITEEE', 'CET']
@@ -127,7 +132,7 @@ def generate_institution_data():
 def save_to_mongodb(data, db_name='shiksha_data', collection_name='institutions'):
     try:
         # Connect to MongoDB (replace with your MongoDB Atlas connection string if needed)
-        client = MongoClient('')
+        client = MongoClient(MONGO_URI)
         
         # Access database and collection
         db = client[db_name]
@@ -155,13 +160,13 @@ def save_to_mongodb(data, db_name='shiksha_data', collection_name='institutions'
 # Main execution
 if __name__ == "__main__":
     # Generate random institution data
-    # print(generate_institution_data())
-    print("Starting data generation and insertion into MongoDB...\n")
-    for i in range(50):
-        print(f"Generating data for institution {i+1}...")
-        data = generate_institution_data()
-        save_to_mongodb(data)
-        time.sleep(.2)  # Sleep to avoid overwhelming the database with requests
-        print(f"Data for institution {i+1} saved successfully.\n")
-        print("-" * 50)
-        print("\n")
+    print(generate_institution_data())
+    # print("Starting data generation and insertion into MongoDB...\n")
+    # for i in range(50):
+    #     print(f"Generating data for institution {i+1}...")
+    #     data = generate_institution_data()
+    #     save_to_mongodb(data)
+    #     time.sleep(.2)  # Sleep to avoid overwhelming the database with requests
+    #     print(f"Data for institution {i+1} saved successfully.\n")
+    #     print("-" * 50)
+    #     print("\n")

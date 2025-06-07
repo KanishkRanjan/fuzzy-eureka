@@ -43,11 +43,20 @@
         "eligibility": "MD in relevant field, NEET SS qualification"
       }
     ],
-    "eligibility_criteria": {
-      "M.Ch": "MS/MD in relevant field, NEET SS qualification",
-      "DM": "MD in relevant field, NEET SS qualification"
-    },
-    "acceptance_exams": ["NEET SS", "NEET PG"],
+    "eligibility_criteria": [
+      {
+        "name": "M.Ch",
+        "required": "MS/MD in relevant field, NEET SS qualification"
+      },
+      {
+        "name": "DM",
+        "required": "MD in relevant field, NEET SS qualification"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET SS",
+      "NEET PG"
+    ],
     "top_recruiters": [
       "Government Hospitals",
       "Private Transplant Centers",
@@ -60,7 +69,10 @@
     },
     "image_url": "https://www.guts.ac.in/images/campus.jpg",
     "rating": 8.8,
-    "field_taught": ["Medical Sciences", "Transplantation Sciences"],
+    "field_taught": [
+      "Medical Sciences",
+      "Transplantation Sciences"
+    ],
     "score": 735700.0
   },
   {
@@ -107,11 +119,20 @@
         "eligibility": "MS in relevant field, NEET SS qualification"
       }
     ],
-    "eligibility_criteria": {
-      "DM": "MD in relevant field, NEET SS qualification",
-      "M.Ch": "MS in relevant field, NEET SS qualification"
-    },
-    "acceptance_exams": ["NEET SS", "NEET PG"],
+    "eligibility_criteria": [
+      {
+        "name": "DM",
+        "required": "MD in relevant field, NEET SS qualification"
+      },
+      {
+        "name": "M.Ch",
+        "required": "MS in relevant field, NEET SS qualification"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET SS",
+      "NEET PG"
+    ],
     "top_recruiters": [
       "Government Hospitals",
       "Private Medical Centers",
@@ -124,7 +145,10 @@
     },
     "image_url": "https://bmhrc.ac.in/images/campus.jpg",
     "rating": 8.7,
-    "field_taught": ["Medical Sciences", "Research"],
+    "field_taught": [
+      "Medical Sciences",
+      "Research"
+    ],
     "score": 735700.0
   },
   {
@@ -174,7 +198,7 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 250000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
       },
       {
         "name": "M.Tech in Structural Engineering",
@@ -183,12 +207,24 @@
         "eligibility": "B.Tech in relevant field, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "B.Tech": "10+2 with PCM, minimum 50% marks",
-      "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks",
-      "M.Tech": "B.Tech in relevant field, minimum 50% marks"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.Tech in relevant field, minimum 50% marks"
+      }
+    ],
     "acceptance_exams": [
       "JEE Main",
       "NEET UG",
@@ -267,11 +303,20 @@
         "eligibility": "MBBS, NEET PG qualification"
       }
     ],
-    "eligibility_criteria": {
-      "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG",
-      "MD": "MBBS, NEET PG qualification"
-    },
-    "acceptance_exams": ["NEET UG", "NEET PG"],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG"
+      },
+      {
+        "name": "MD",
+        "required": "MBBS, NEET PG qualification"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET UG",
+      "NEET PG"
+    ],
     "top_recruiters": [
       "Government Hospitals",
       "Private Hospitals",
@@ -284,7 +329,9 @@
     },
     "image_url": "https://abvmu.ac.in/images/campus.jpg",
     "rating": 8.2,
-    "field_taught": ["Medical Sciences"],
+    "field_taught": [
+      "Medical Sciences"
+    ],
     "score": 735700.0
   },
   {
@@ -334,7 +381,7 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 300000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
       },
       {
         "name": "B.Pharm",
@@ -343,14 +390,39 @@
         "eligibility": "10+2 with PCB/PCM, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "B.Tech": "10+2 with PCM, minimum 50% marks",
-      "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks",
-      "B.Pharm": "10+2 with PCB/PCM, minimum 50% marks"
-    },
-    "acceptance_exams": ["JEE Main", "NEET UG", "CAT", "MAT", "GCET"],
-    "top_recruiters": ["TCS", "Infosys", "Wipro", "L&T", "Amazon", "Capgemini"],
+    "eligibility_criteria": [
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
+      },
+      {
+        "name": "B.Pharm",
+        "required": "10+2 with PCB/PCM, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "JEE Main",
+      "NEET UG",
+      "CAT",
+      "MAT",
+      "GCET"
+    ],
+    "top_recruiters": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "L&T",
+      "Amazon",
+      "Capgemini"
+    ],
     "placements": {
       "average_salary": 400000.0,
       "highest_salary": 1800000.0,
@@ -409,7 +481,7 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 400000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
       },
       {
         "name": "B.Pharm",
@@ -424,13 +496,31 @@
         "eligibility": "B.Tech in relevant field, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "B.Tech": "10+2 with PCM, minimum 60% marks",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks",
-      "B.Pharm": "10+2 with PCB/PCM, minimum 50% marks",
-      "M.Tech": "B.Tech in relevant field, minimum 50% marks"
-    },
-    "acceptance_exams": ["GAT", "JEE Main", "CAT", "MAT", "GATE"],
+    "eligibility_criteria": [
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 60% marks"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
+      },
+      {
+        "name": "B.Pharm",
+        "required": "10+2 with PCB/PCM, minimum 50% marks"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.Tech in relevant field, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "GAT",
+      "JEE Main",
+      "CAT",
+      "MAT",
+      "GATE"
+    ],
     "top_recruiters": [
       "Amazon",
       "TCS",
@@ -477,8 +567,13 @@
       "website": "https://www.natboard.edu.in"
     },
     "courses_offered": [],
-    "eligibility_criteria": {},
-    "acceptance_exams": ["NEET UG", "NEET PG", "DNB CET", "FMGE"],
+    "eligibility_criteria": [],
+    "acceptance_exams": [
+      "NEET UG",
+      "NEET PG",
+      "DNB CET",
+      "FMGE"
+    ],
     "top_recruiters": [],
     "placements": {
       "average_salary": 0.0,
@@ -487,7 +582,9 @@
     },
     "image_url": "https://www.natboard.edu.in/images/office.jpg",
     "rating": 9.0,
-    "field_taught": ["Medical Examinations"],
+    "field_taught": [
+      "Medical Examinations"
+    ],
     "score": 735700.0
   },
   {
@@ -534,11 +631,20 @@
         "eligibility": "MBBS, NEET PG qualification"
       }
     ],
-    "eligibility_criteria": {
-      "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG",
-      "MD": "MBBS, NEET PG qualification"
-    },
-    "acceptance_exams": ["NEET UG", "NEET PG"],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG"
+      },
+      {
+        "name": "MD",
+        "required": "MBBS, NEET PG qualification"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET UG",
+      "NEET PG"
+    ],
     "top_recruiters": [
       "Government Hospitals",
       "Private Hospitals",
@@ -551,7 +657,11 @@
     },
     "image_url": "https://wbuhs.ac.in/images/campus.jpg",
     "rating": 8.5,
-    "field_taught": ["Medical Sciences", "Nursing", "Dentistry"],
+    "field_taught": [
+      "Medical Sciences",
+      "Nursing",
+      "Dentistry"
+    ],
     "score": 735700.0
   },
   {
@@ -598,11 +708,20 @@
         "eligibility": "10+2 with PCB, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG",
-      "B.Sc Nursing": "10+2 with PCB, minimum 50% marks"
-    },
-    "acceptance_exams": ["NEET UG", "NEET PG"],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG"
+      },
+      {
+        "name": "B.Sc Nursing",
+        "required": "10+2 with PCB, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET UG",
+      "NEET PG"
+    ],
     "top_recruiters": [
       "Government Hospitals",
       "Private Hospitals",
@@ -615,7 +734,11 @@
     },
     "image_url": "https://www.upums.ac.in/images/campus.jpg",
     "rating": 8.3,
-    "field_taught": ["Medical Sciences", "Nursing", "Pharmacy"],
+    "field_taught": [
+      "Medical Sciences",
+      "Nursing",
+      "Pharmacy"
+    ],
     "score": 735700.0
   },
   {
@@ -653,7 +776,7 @@
         "name": "B.Ed. Special Education",
         "duration": "2 years",
         "fee": 100000.0,
-        "eligibility": "Bachelor’s degree, minimum 50% marks"
+        "eligibility": "Bachelor\u2019s degree, minimum 50% marks"
       },
       {
         "name": "B.Tech in Computer Science",
@@ -662,12 +785,26 @@
         "eligibility": "10+2 with PCM, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "B.Ed": "Bachelor’s degree, minimum 50% marks",
-      "B.Tech": "10+2 with PCM, minimum 50% marks"
-    },
-    "acceptance_exams": ["University Entrance Test", "JEE Main"],
-    "top_recruiters": ["NGOs", "Educational Institutions", "TCS", "Wipro"],
+    "eligibility_criteria": [
+      {
+        "name": "B.Ed",
+        "required": "Bachelor\u2019s degree, minimum 50% marks"
+      },
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "University Entrance Test",
+      "JEE Main"
+    ],
+    "top_recruiters": [
+      "NGOs",
+      "Educational Institutions",
+      "TCS",
+      "Wipro"
+    ],
     "placements": {
       "average_salary": 300000.0,
       "highest_salary": 800000.0,
@@ -675,7 +812,12 @@
     },
     "image_url": "https://dsmnru.ac.in/images/campus.jpg",
     "rating": 8.0,
-    "field_taught": ["Special Education", "Engineering", "Law", "Management"],
+    "field_taught": [
+      "Special Education",
+      "Engineering",
+      "Law",
+      "Management"
+    ],
     "score": 735700.0
   },
   {
@@ -725,16 +867,35 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 250000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG",
-      "B.Tech": "10+2 with PCM, minimum 50% marks",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks"
-    },
-    "acceptance_exams": ["NEET UG", "University Entrance Test", "CAT", "MAT"],
-    "top_recruiters": ["TCS", "Wipro", "HCL", "Private Hospitals"],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG"
+      },
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET UG",
+      "University Entrance Test",
+      "CAT",
+      "MAT"
+    ],
+    "top_recruiters": [
+      "TCS",
+      "Wipro",
+      "HCL",
+      "Private Hospitals"
+    ],
     "placements": {
       "average_salary": 400000.0,
       "highest_salary": 1200000.0,
@@ -742,7 +903,12 @@
     },
     "image_url": "https://www.ramauniversity.ac.in/images/campus.jpg",
     "rating": 8.3,
-    "field_taught": ["Medical Sciences", "Engineering", "Management", "Law"],
+    "field_taught": [
+      "Medical Sciences",
+      "Engineering",
+      "Management",
+      "Law"
+    ],
     "score": 735700.0
   },
   {
@@ -789,12 +955,26 @@
         "eligibility": "B.Sc. in relevant field, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "B.Tech": "10+2 with PCM, minimum 50% marks",
-      "M.Sc": "B.Sc. in relevant field, minimum 50% marks"
-    },
-    "acceptance_exams": ["UPSEE", "University Entrance Test"],
-    "top_recruiters": ["TCS", "Wipro", "Infosys", "Local Industries"],
+    "eligibility_criteria": [
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "M.Sc",
+        "required": "B.Sc. in relevant field, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "UPSEE",
+      "University Entrance Test"
+    ],
+    "top_recruiters": [
+      "TCS",
+      "Wipro",
+      "Infosys",
+      "Local Industries"
+    ],
     "placements": {
       "average_salary": 300000,
       "highest_salary": 800000,
@@ -802,7 +982,12 @@
     },
     "image_url": "https://www.mjpru.ac.in/images/campus.jpg",
     "rating": 7.8,
-    "field_taught": ["Engineering", "Science", "Management", "Humanities"],
+    "field_taught": [
+      "Engineering",
+      "Science",
+      "Management",
+      "Humanities"
+    ],
     "score": 600000.0
   },
   {
@@ -849,11 +1034,19 @@
         "eligibility": "B.Sc. in relevant field, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "B.A": "10+2 with any stream, minimum 50% marks",
-      "M.Sc": "B.Sc. in relevant field, minimum 50% marks"
-    },
-    "acceptance_exams": ["University Entrance Test"],
+    "eligibility_criteria": [
+      {
+        "name": "B.A",
+        "required": "10+2 with any stream, minimum 50% marks"
+      },
+      {
+        "name": "M.Sc",
+        "required": "B.Sc. in relevant field, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "University Entrance Test"
+    ],
     "top_recruiters": [
       "Educational Institutions",
       "Government Offices",
@@ -866,7 +1059,12 @@
     },
     "image_url": "https://www.rmlau.ac.in/images/campus.jpg",
     "rating": 7.5,
-    "field_taught": ["Arts", "Science", "Commerce", "Education"],
+    "field_taught": [
+      "Arts",
+      "Science",
+      "Commerce",
+      "Education"
+    ],
     "score": 600000.0
   },
   {
@@ -916,16 +1114,37 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": "300000",
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "B.Tech": "10+2 with PCM, minimum 50% marks",
-      "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks"
-    },
-    "acceptance_exams": ["IUET", "JEE Main", "NEET", "CAT", "MAT"],
-    "top_recruiters": ["TCS", "Infosys", "Wipro", "HCL", "Private Hospitals"],
+    "eligibility_criteria": [
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "IUET",
+      "JEE Main",
+      "NEET",
+      "CAT",
+      "MAT"
+    ],
+    "top_recruiters": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Private Hospitals"
+    ],
     "placements": {
       "average_salary": "450000",
       "highest_salary": "1500000",
@@ -986,11 +1205,19 @@
         "eligibility": "B.A. in relevant field, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "B.A": "10+2 with any stream, minimum 45% marks",
-      "M.A": "B.A. in relevant field, minimum 50% marks"
-    },
-    "acceptance_exams": ["University Entrance Test"],
+    "eligibility_criteria": [
+      {
+        "name": "B.A",
+        "required": "10+2 with any stream, minimum 45% marks"
+      },
+      {
+        "name": "M.A",
+        "required": "B.A. in relevant field, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "University Entrance Test"
+    ],
     "top_recruiters": [
       "Educational Institutions",
       "NGOs",
@@ -1003,7 +1230,12 @@
     },
     "image_url": "https://www.mgkvp.ac.in/images/campus.jpg",
     "rating": 7.6,
-    "field_taught": ["Arts", "Commerce", "Social Sciences", "Education"],
+    "field_taught": [
+      "Arts",
+      "Commerce",
+      "Social Sciences",
+      "Education"
+    ],
     "score": 600000.0
   },
   {
@@ -1050,11 +1282,20 @@
         "eligibility": "MBBS, NEET PG qualification"
       }
     ],
-    "eligibility_criteria": {
-      "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG",
-      "MD": "MBBS, NEET PG qualification"
-    },
-    "acceptance_exams": ["NEET UG", "NEET PG"],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG"
+      },
+      {
+        "name": "MD",
+        "required": "MBBS, NEET PG qualification"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET UG",
+      "NEET PG"
+    ],
     "top_recruiters": [
       "Private Hospitals",
       "Government Hospitals",
@@ -1067,7 +1308,10 @@
     },
     "image_url": "https://www.santosh.ac.in/images/campus.jpg",
     "rating": "8.4",
-    "field_taught": ["Medical Sciences", "Dentistry"],
+    "field_taught": [
+      "Medical Sciences",
+      "Dentistry"
+    ],
     "score": 735700.0
   },
   {
@@ -1117,15 +1361,30 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": "400000",
-        "eligibility": "Bachelor’sBachelor's degree in any discipline, minimum 50% marks"
+        "eligibility": "Bachelor\u2019sBachelor's degree in any discipline, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "B.Tech": "10+2 with PCM, minimum 50% marks",
-      "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-      "MBA": "Bachelor’sBachelor's degree in any discipline, minimum 50% marks"
-    },
-    "acceptance_exams": ["SUAT", "JEE Main", "NEET", "CAT", "MAT"],
+    "eligibility_criteria": [
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019sBachelor's degree in any discipline, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "SUAT",
+      "JEE Main",
+      "NEET",
+      "CAT",
+      "MAT"
+    ],
     "top_recruiters": [
       "Amazon",
       "TCS",
@@ -1195,13 +1454,25 @@
         "eligibility": "10+2 with PCB, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-      "B.Sc": "Nursing 10+2 with PCB, minimum 50% marks"
-    },
-
-    "acceptance_exams": ["NEET UG", "University Entrance Test"],
-    "top_recruiters": ["Private Hospitals", "Nursing Homes", "Medical Clinics"],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Sc",
+        "required": "Nursing 10+2 with PCB, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET UG",
+      "University Entrance Test"
+    ],
+    "top_recruiters": [
+      "Private Hospitals",
+      "Nursing Homes",
+      "Medical Clinics"
+    ],
     "placements": {
       "average_salary": "700000",
       "highest_salary": "1500000",
@@ -1209,7 +1480,10 @@
     },
     "image_url": "https://www.biu.ac.in/images/campus.jpg",
     "rating": "7.8",
-    "field_taught": ["Medical Sciences", "Nursing"],
+    "field_taught": [
+      "Medical Sciences",
+      "Nursing"
+    ],
     "score": 735700.0
   },
   {
@@ -1259,15 +1533,30 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": "250000",
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-      "B.Tech": "10+2 with PCM, minimum 50% marks",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks"
-    },
-    "acceptance_exams": ["NEET", "SNET", "JEE Main", "CAT", "MAT"],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET",
+      "SNET",
+      "JEE Main",
+      "CAT",
+      "MAT"
+    ],
     "top_recruiters": [
       "TCS",
       "Wipro",
@@ -1291,7 +1580,6 @@
     ],
     "score": 735700.0
   },
-
   {
     "name": "Alliance University, School of Engineering and Design",
     "type": "Private University Constituent College",
@@ -1342,10 +1630,16 @@
         "eligibility": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.Tech": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "JEE Main",
       "JEE Advanced",
@@ -1435,14 +1729,23 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 600000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "B.E.": "10+2 with PCM, minimum 50% marks",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.E.",
+        "required": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
+      }
+    ],
     "acceptance_exams": [
       "KCET",
       "COMEDK UGET",
@@ -1531,14 +1834,23 @@
         "name": "MCA",
         "duration": "2 years",
         "fee": 600000.0,
-        "eligibility": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.E.": "10+2 with PCM, minimum 60% marks (55% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MCA": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.E.",
+        "required": "10+2 with PCM, minimum 60% marks (55% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MCA",
+        "required": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "KCET",
       "COMEDK UGET",
@@ -1625,15 +1937,27 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 250000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.E.": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)",
-      "MCA": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.E.",
+        "required": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MCA",
+        "required": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "KCET",
       "COMEDK UGET",
@@ -1726,15 +2050,27 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 1000000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
       }
     ],
-    "eligibility_criteria": {
-      "B.Tech": "10+2 with PCM, minimum 50% marks",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks",
-      "BBA": "10+2 in any discipline, minimum 50% marks"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
+      },
+      {
+        "name": "BBA",
+        "required": "10+2 in any discipline, minimum 50% marks"
+      }
+    ],
     "acceptance_exams": [
       "PESSAT",
       "KCET",
@@ -1829,15 +2165,27 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 600000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.E.": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)",
-      "MCA": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.E.",
+        "required": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MCA",
+        "required": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "KCET",
       "COMEDK UGET",
@@ -1929,15 +2277,27 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 585000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.E.": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)",
-      "MCA": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.E.",
+        "required": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MCA",
+        "required": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "KCET",
       "COMEDK UGET",
@@ -2029,15 +2389,27 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 500000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.E.": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)",
-      "MCA": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.E.",
+        "required": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MCA",
+        "required": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "KCET",
       "COMEDK UGET",
@@ -2129,14 +2501,23 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 400000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.E.": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.E.",
+        "required": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "KCET",
       "COMEDK UGET",
@@ -2166,7 +2547,11 @@
     },
     "image_url": "https://www.sirmvit.edu/images/campus.jpg",
     "rating": 8.5,
-    "field_taught": ["Engineering", "Technology", "Management"],
+    "field_taught": [
+      "Engineering",
+      "Technology",
+      "Management"
+    ],
     "score": 735700.0
   },
   {
@@ -2222,15 +2607,27 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 600000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.E.": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)",
-      "MCA": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.E.",
+        "required": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MCA",
+        "required": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "KCET",
       "COMEDK UGET",
@@ -2322,15 +2719,27 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 640000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.Tech": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)",
-      "MCA": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MCA",
+        "required": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "REVA CET",
       "KCET",
@@ -2428,14 +2837,23 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 1000000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.Tech": "10+2 with PCM, minimum 60% marks (55% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 60% marks (55% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "JET",
       "JEE Main",
@@ -2528,15 +2946,27 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 116940.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.E.": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)",
-      "MCA": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.E.",
+        "required": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MCA",
+        "required": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "KCET",
       "COMEDK UGET",
@@ -2630,15 +3060,27 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 400000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.E.": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)",
-      "MCA": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.E.",
+        "required": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MCA",
+        "required": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "KCET",
       "COMEDK UGET",
@@ -2729,14 +3171,23 @@
         "name": "MCA",
         "duration": "2 years",
         "fee": 400000.0,
-        "eligibility": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.E.": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MCA": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.E.",
+        "required": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MCA",
+        "required": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "KCET",
       "COMEDK UGET",
@@ -2766,7 +3217,11 @@
     },
     "image_url": "https://bmsit.ac.in/images/campus.jpg",
     "rating": 8.5,
-    "field_taught": ["Engineering", "Technology", "Computer Applications"],
+    "field_taught": [
+      "Engineering",
+      "Technology",
+      "Computer Applications"
+    ],
     "score": 735700.0
   },
   {
@@ -2822,15 +3277,27 @@
         "name": "MBA",
         "duration": "2 years",
         "fee": 350000.0,
-        "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
       }
     ],
-    "eligibility_criteria": {
-      "B.E.": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)",
-      "M.Tech": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)",
-      "MBA": "Bachelor’s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)",
-      "MCA": "Bachelor’s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
-    },
+    "eligibility_criteria": [
+      {
+        "name": "B.E.",
+        "required": "10+2 with PCM, minimum 45% marks (40% for SC/ST/OBC)"
+      },
+      {
+        "name": "M.Tech",
+        "required": "B.E./B.Tech in relevant field, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks (45% for SC/ST/OBC)"
+      },
+      {
+        "name": "MCA",
+        "required": "Bachelor\u2019s degree with Mathematics/Statistics/Computer Science, minimum 50% marks (45% for SC/ST/OBC)"
+      }
+    ],
     "acceptance_exams": [
       "KCET",
       "COMEDK UGET",
@@ -2871,1036 +3338,1129 @@
     "score": 735700.0
   },
   {
-        "name": "Deen Dayal Upadhyay Gorakhpur University",
-        "type": "State University",
-        "location": {
-            "city": "Gorakhpur",
-            "state": "Uttar Pradesh",
-            "country": "India",
-            "pincode": "273009"
-        },
-        "established_year": "1957",
-        "accreditation": "UGC, NAAC B",
-        "total_students": 9000,
-        "admission_process": "The admission process at Deen Dayal Upadhyay Gorakhpur University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- University entrance test for most courses\n- Counselling and document verification\n- Document verification and fee payment",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "registrar@ddugu.ac.in",
-            "phone": "+91-551-2201577",
-            "address": "Civil Lines, Gorakhpur, Uttar Pradesh, India",
-            "website": "https://ddugu.ac.in"
-        },
-        "courses_offered": [
-            {
-                "name": "B.A. in Political Science",
-                "duration": "3 years",
-                "fee": 30000.0,
-                "eligibility": "10+2 with any stream, minimum 45% marks"
-            },
-            {
-                "name": "M.Sc. in Mathematics",
-                "duration": "2 years",
-                "fee": 50000.0,
-                "eligibility": "B.Sc. in relevant field, minimum 50% marks"
-            }
-        ],
-        "eligibility_criteria": {
-            "B.A.": "10+2 with any stream, minimum 45% marks",
-            "M.Sc.": "B.Sc. in relevant field, minimum 50% marks"
-        },
-        "acceptance_exams": [
-            "University Entrance Test"
-        ],
-        "top_recruiters": [
-            "Educational Institutions",
-            "Government Offices",
-            "NGOs"
-        ],
-        "placements": {
-            "average_salary": 250000.0,
-            "highest_salary": 600000.0,
-            "placement_rate": 65.0
-        },
-        "image_url": "https://ddugu.ac.in/images/campus.jpg",
-        "rating": 7.5,
-        "field_taught": [
-            "Arts",
-            "Science",
-            "Commerce",
-            "Education"
-        ],
-        "score": 600000.0
+    "name": "Deen Dayal Upadhyay Gorakhpur University",
+    "type": "State University",
+    "location": {
+      "city": "Gorakhpur",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "273009"
     },
-    {
-        "name": "Sanjay Gandhi Post Graduate Institute of Medical Sciences",
-        "type": "Statutory Autonomous",
-        "location": {
-            "city": "Lucknow",
-            "state": "Uttar Pradesh",
-            "country": "India",
-            "pincode": "226014"
-        },
-        "established_year": "1983",
-        "accreditation": "NMC",
-        "total_students": 1000,
-        "admission_process": "The admission process at Sanjay Gandhi Post Graduate Institute of Medical Sciences is merit-based and includes the following steps:\n\n- Academic performance in relevant qualifying examinations\n- Valid entrance examination scores (NEET PG for MD/MS, NEET SS for DM/M.Ch)\n- Counselling conducted by the institute\n- Document verification and fee payment",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "director@sgpgi.ac.in",
-            "phone": "+91-522-2494000",
-            "address": "Raebareli Road, Lucknow, Uttar Pradesh, India",
-            "website": "https://www.sgpgi.ac.in"
-        },
-        "courses_offered": [
-            {
-                "name": "DM in Cardiology",
-                "duration": "3 years",
-                "fee": 500000.0,
-                "eligibility": "MD in relevant field, NEET SS qualification"
-            },
-            {
-                "name": "M.Ch in Neurosurgery",
-                "duration": "3 years",
-                "fee": 500000.0,
-                "eligibility": "MS in relevant field, NEET SS qualification"
-            }
-        ],
-        "eligibility_criteria": {
-            "DM": "MD in relevant field, NEET SS qualification",
-            "M.Ch": "MS in relevant field, NEET SS qualification"
-        },
-        "acceptance_exams": [
-            "NEET PG",
-            "NEET SS"
-        ],
-        "top_recruiters": [
-            "Government Hospitals",
-            "Private Medical Centers",
-            "Research Institutes"
-        ],
-        "placements": {
-            "average_salary": 1800000.0,
-            "highest_salary": 3500000.0,
-            "placement_rate": 95.0
-        },
-        "image_url": "https://www.sgpgi.ac.in/images/campus.jpg",
-        "rating": 9.0,
-        "field_taught": [
-            "Medical Sciences",
-            "Research"
-        ],
-        "score": 735700.0
+    "established_year": "1957",
+    "accreditation": "UGC, NAAC B",
+    "total_students": 9000,
+    "admission_process": "The admission process at Deen Dayal Upadhyay Gorakhpur University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- University entrance test for most courses\n- Counselling and document verification\n- Document verification and fee payment",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "registrar@ddugu.ac.in",
+      "phone": "+91-551-2201577",
+      "address": "Civil Lines, Gorakhpur, Uttar Pradesh, India",
+      "website": "https://ddugu.ac.in"
     },
-    {
-        "name": "Teerthanker Mahaveer University",
-        "type": "Private University",
-        "location": {
-            "city": "Moradabad",
-            "state": "Uttar Pradesh",
-            "country": "India",
-            "pincode": "244001"
-        },
-        "established_year": "2008",
-        "accreditation": "UGC, NAAC",
-        "total_students": 10000,
-        "admission_process": "The admission process at Teerthanker Mahaveer University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- Valid entrance examination scores (TMU Entrance Test, NEET for medical courses, JEE Main for B.Tech)\n- Counselling and document verification\n- Management quota seats available with higher fees",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "admissions@tmu.ac.in",
-            "phone": "+91-591-2360500",
-            "address": "NH-24, Delhi Road, Moradabad, Uttar Pradesh, India",
-            "website": "https://www.tmu.ac.in"
-        },
-        "courses_offered": [
-            {
-                "name": "MBBS",
-                "duration": "5.5 years",
-                "fee": 2500000.0,
-                "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
-            },
-            {
-                "name": "B.Tech in Computer Science",
-                "duration": "4 years",
-                "fee": 900000.0,
-                "eligibility": "10+2 with PCM, minimum 50% marks"
-            },
-            {
-                "name": "MBA",
-                "duration": "2 years",
-                "fee": 300000.0,
-                "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks"
-            }
-        ],
-        "eligibility_criteria": {
-            "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-            "B.Tech": "10+2 with PCM, minimum 50% marks",
-            "MBA": "Bachelor’s degree in any discipline, minimum 50% marks"
-        },
-        "acceptance_exams": [
-            "TMU Entrance Test",
-            "NEET UG",
-            "JEE Main",
-            "CAT",
-            "MAT"
-        ],
-        "top_recruiters": [
-            "TCS",
-            "Infosys",
-            "Wipro",
-            "HCL",
-            "Private Hospitals"
-        ],
-        "placements": {
-            "average_salary": 400000.0,
-            "highest_salary": 1500000.0,
-            "placement_rate": 85.0
-        },
-        "image_url": "https://www.tmu.ac.in/images/campus.jpg",
-        "rating": 8.3,
-        "field_taught": [
-            "Medical Sciences",
-            "Engineering",
-            "Management",
-            "Law",
-            "Education"
-        ],
-        "score": 735700.0
+    "courses_offered": [
+      {
+        "name": "B.A. in Political Science",
+        "duration": "3 years",
+        "fee": 30000.0,
+        "eligibility": "10+2 with any stream, minimum 45% marks"
+      },
+      {
+        "name": "M.Sc. in Mathematics",
+        "duration": "2 years",
+        "fee": 50000.0,
+        "eligibility": "B.Sc. in relevant field, minimum 50% marks"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "B.A.",
+        "required": "10+2 with any stream, minimum 45% marks"
+      },
+      {
+        "name": "M.Sc.",
+        "required": "B.Sc. in relevant field, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "University Entrance Test"
+    ],
+    "top_recruiters": [
+      "Educational Institutions",
+      "Government Offices",
+      "NGOs"
+    ],
+    "placements": {
+      "average_salary": 250000.0,
+      "highest_salary": 600000.0,
+      "placement_rate": 65.0
     },
-    {
-        "name": "Bundelkhand University",
-        "type": "State University",
-        "location": {
-            "city": "Jhansi",
-            "state": "Uttar Pradesh",
-            "country": "India",
-            "pincode": "284128"
-        },
-        "established_year": "1975",
-        "accreditation": "UGC, NAAC",
-        "total_students": 8000,
-        "admission_process": "The admission process at Bundelkhand University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- University entrance test or UPSEE for technical courses\n- Counselling and document verification\n- Document verification and fee payment",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "admissions@bundelkhanduniv.ac.in",
-            "phone": "+91-510-2320496",
-            "address": "Kanpur Road, Jhansi, Uttar Pradesh, India",
-            "website": "https://www.bujhansi.ac.in"
-        },
-        "courses_offered": [
-            {
-                "name": "B.Tech in Mechanical Engineering",
-                "duration": "4 years",
-                "fee": 600000.0,
-                "eligibility": "10+2 with PCM, minimum 50% marks"
-            },
-            {
-                "name": "M.Sc. in Chemistry",
-                "duration": "2 years",
-                "fee": 100000.0,
-                "eligibility": "B.Sc. in relevant field, minimum 50% marks"
-            }
-        ],
-        "eligibility_criteria": {
-            "B.Tech": "10+2 with PCM, minimum 50% marks",
-            "M.Sc": "B.Sc. in relevant field, minimum 50% marks"
-        },
-        "acceptance_exams": [
-            "UPSEE",
-            "University Entrance Test"
-        ],
-        "top_recruiters": [
-            "TCS",
-            "Infosys",
-            "Wipro",
-            "Local Industries"
-        ],
-        "placements": {
-            "average_salary": 300000.0,
-            "highest_salary": 800000.0,
-            "placement_rate": 70.0
-        },
-        "image_url": "https://www.bujhansi.ac.in/images/campus.jpg",
-        "rating": 7.8,
-        "field_taught": [
-            "Engineering",
-            "Science",
-            "Management",
-            "Arts"
-        ],
-        "score": 600000.0
+    "image_url": "https://ddugu.ac.in/images/campus.jpg",
+    "rating": 7.5,
+    "field_taught": [
+      "Arts",
+      "Science",
+      "Commerce",
+      "Education"
+    ],
+    "score": 600000.0
+  },
+  {
+    "name": "Sanjay Gandhi Post Graduate Institute of Medical Sciences",
+    "type": "Statutory Autonomous",
+    "location": {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "226014"
     },
-    {
-        "name": "C.S.J.M. University, Kanpur",
-        "type": "State University",
-        "location": {
-            "city": "Kanpur",
-            "state": "Uttar Pradesh",
-            "country": "India",
-            "pincode": "208024"
-        },
-        "established_year": "1966",
-        "accreditation": "UGC, NAAC",
-        "total_students": 10000,
-        "admission_process": "The admission process at C.S.J.M. University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- University entrance test or UPSEE for technical courses\n- Counselling and document verification\n- Document verification and fee payment",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "csjmu@kanpuruniversity.org",
-            "phone": "+91-512-2571588",
-            "address": "Kalyanpur, Kanpur, Uttar Pradesh, India",
-            "website": "https://www.csjmu.ac.in"
-        },
-        "courses_offered": [
-            {
-                "name": "B.A. in Economics",
-                "duration": "3 years",
-                "fee": 30000.0,
-                "eligibility": "10+2 with any stream, minimum 45% marks"
-            },
-            {
-                "name": "MBA",
-                "duration": "2 years",
-                "fee": 200000.0,
-                "eligibility": "Bachelor’s degree in any discipline, minimum 50% marks"
-            }
-        ],
-        "eligibility_criteria": {
-            "B.A.": "10+2 with any stream, minimum 45% marks",
-            "MBA": "Bachelor’s degree in any discipline, minimum 50% marks"
-        },
-        "acceptance_exams": [
-            "University Entrance Test",
-            "CAT",
-            "MAT"
-        ],
-        "top_recruiters": [
-            "TCS",
-            "HCL",
-            "Educational Institutions",
-            "Government Offices"
-        ],
-        "placements": {
-            "average_salary": 350000.0,
-            "highest_salary": 900000.0,
-            "placement_rate": 75.0
-        },
-        "image_url": "https://www.csjmu.ac.in/images/campus.jpg",
-        "rating": 7.9,
-        "field_taught": [
-            "Arts",
-            "Science",
-            "Commerce",
-            "Management"
-        ],
-        "score": 600000.0
+    "established_year": "1983",
+    "accreditation": "NMC",
+    "total_students": 1000,
+    "admission_process": "The admission process at Sanjay Gandhi Post Graduate Institute of Medical Sciences is merit-based and includes the following steps:\n\n- Academic performance in relevant qualifying examinations\n- Valid entrance examination scores (NEET PG for MD/MS, NEET SS for DM/M.Ch)\n- Counselling conducted by the institute\n- Document verification and fee payment",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "director@sgpgi.ac.in",
+      "phone": "+91-522-2494000",
+      "address": "Raebareli Road, Lucknow, Uttar Pradesh, India",
+      "website": "https://www.sgpgi.ac.in"
     },
-    {
-        "name": "Era University, Lucknow",
-        "type": "Private University",
-        "location": {
-            "city": "Lucknow",
-            "state": "Uttar Pradesh",
-            "country": "India",
-            "pincode": "226003"
-        },
-        "established_year": "2016",
-        "accreditation": "UGC",
-        "total_students": 3000,
-        "admission_process": "The admission process at Era University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- Valid entrance examination scores (NEET for medical courses, university entrance test for others)\n- Counselling and document verification\n- Management quota seats available with higher fees",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "admissions@erauniversity.in",
-            "phone": "+91-522-6600777",
-            "address": "Sarfarazganj, Hardoi Road, Lucknow, Uttar Pradesh, India",
-            "website": "https://www.erauniversity.in"
-        },
-        "courses_offered": [
-            {
-                "name": "MBBS",
-                "duration": "5.5 years",
-                "fee": 2000000.0,
-                "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
-            },
-            {
-                "name": "B.Sc. Nursing",
-                "duration": "4 years",
-                "fee": 600000.0,
-                "eligibility": "10+2 with PCB, minimum 50% marks"
-            }
-        ],
-        "eligibility_criteria": {
-            "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-            "B.Sc. Nursing": "10+2 with PCB, minimum 50% marks"
-        },
-        "acceptance_exams": [
-            "NEET UG",
-            "University Entrance Test"
-        ],
-        "top_recruiters": [
-            "Private Hospitals",
-            "Nursing Homes",
-            "Medical Clinics"
-        ],
-        "placements": {
-            "average_salary": 700000.0,
-            "highest_salary": 1500000.0,
-            "placement_rate": 80.0
-        },
-        "image_url": "https://www.erauniversity.in/images/campus.jpg",
-        "rating": 8.0,
-        "field_taught": [
-            "Medical Sciences",
-            "Nursing",
-            "Pharmacy"
-        ],
-        "score": 735700.0
+    "courses_offered": [
+      {
+        "name": "DM in Cardiology",
+        "duration": "3 years",
+        "fee": 500000.0,
+        "eligibility": "MD in relevant field, NEET SS qualification"
+      },
+      {
+        "name": "M.Ch in Neurosurgery",
+        "duration": "3 years",
+        "fee": 500000.0,
+        "eligibility": "MS in relevant field, NEET SS qualification"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "DM",
+        "required": "MD in relevant field, NEET SS qualification"
+      },
+      {
+        "name": "M.Ch",
+        "required": "MS in relevant field, NEET SS qualification"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET PG",
+      "NEET SS"
+    ],
+    "top_recruiters": [
+      "Government Hospitals",
+      "Private Medical Centers",
+      "Research Institutes"
+    ],
+    "placements": {
+      "average_salary": 1800000.0,
+      "highest_salary": 3500000.0,
+      "placement_rate": 95.0
     },
-    {
-        "name": "Ch. Charan Singh University, Meerut",
-        "type": "State University",
-        "location": {
-            "city": "Meerut",
-            "state": "Uttar Pradesh",
-            "country": "India",
-            "pincode": "250001"
-        },
-        "established_year": "1965",
-        "accreditation": "UGC, NAAC",
-        "total_students": 12000,
-        "admission_process": "The admission process at Ch. Charan Singh University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- University entrance test for most courses\n- Counselling and document verification\n- Document verification and fee payment",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "registrar@ccsuniversity.ac.in",
-            "phone": "+91-121-2760551",
-            "address": "Ramgarhi, Meerut, Uttar Pradesh, India",
-            "website": "https://www.ccsuniversity.ac.in"
-        },
-        "courses_offered": [
-            {
-                "name": "B.Sc. in Agriculture",
-                "duration": "4 years",
-                "fee": 80000.0,
-                "eligibility": "10+2 with PCB/PCM, minimum 50% marks"
-            },
-            {
-                "name": "M.A. in English",
-                "duration": "2 years",
-                "fee": 50000.0,
-                "eligibility": "B.A. in relevant field, minimum 50% marks"
-            }
-        ],
-        "eligibility_criteria": {
-            "B.Sc.": "10+2 with PCB/PCM, minimum 50% marks",
-            "M.A.": "B.A. in relevant field, minimum 50% marks"
-        },
-        "acceptance_exams": [
-            "University Entrance Test"
-        ],
-        "top_recruiters": [
-            "Educational Institutions",
-            "Government Offices",
-            "Agricultural Firms"
-        ],
-        "placements": {
-            "average_salary": 300000.0,
-            "highest_salary": 700000.0,
-            "placement_rate": 70.0
-        },
-        "image_url": "https://www.ccsuniversity.ac.in/images/campus.jpg",
-        "rating": 7.8,
-        "field_taught": [
-            "Agriculture",
-            "Arts",
-            "Science",
-            "Commerce"
-        ],
-        "score": 600000.0
+    "image_url": "https://www.sgpgi.ac.in/images/campus.jpg",
+    "rating": 9.0,
+    "field_taught": [
+      "Medical Sciences",
+      "Research"
+    ],
+    "score": 735700.0
+  },
+  {
+    "name": "Teerthanker Mahaveer University",
+    "type": "Private University",
+    "location": {
+      "city": "Moradabad",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "244001"
     },
-    {
-        "name": "King George's Medical University, Lucknow",
-        "type": "State University",
-        "location": {
-            "city": "Lucknow",
-            "state": "Uttar Pradesh",
-            "country": "India",
-            "pincode": "226003"
-        },
-        "established_year": "1905",
-        "accreditation": "UGC, NMC, NAAC",
-        "total_students": 5000,
-        "admission_process": "The admission process at King George's Medical University is merit-based and includes the following steps:\n\n- Academic performance in relevant qualifying examinations\n- Valid entrance examination scores (NEET UG for MBBS, NEET PG for MD/MS)\n- Counselling conducted by DMET, UP\n- Document verification and fee payment",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "info@kgmu.org",
-            "phone": "+91-522-2257450",
-            "address": "Shah Mina Road, Chowk, Lucknow, Uttar Pradesh, India",
-            "website": "https://www.kgmu.org"
-        },
-        "courses_offered": [
-            {
-                "name": "MBBS",
-                "duration": "5.5 years",
-                "fee": 600000.0,
-                "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
-            },
-            {
-                "name": "MD in General Medicine",
-                "duration": "3 years",
-                "fee": 400000.0,
-                "eligibility": "MBBS, NEET PG qualification"
-            }
-        ],
-        "eligibility_criteria": {
-            "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-            "MD": "MBBS, NEET PG qualification"
-        },
-        "acceptance_exams": [
-            "NEET UG",
-            "NEET PG"
-        ],
-        "top_recruiters": [
-            "Government Hospitals",
-            "Private Hospitals",
-            "Medical Research Institutes"
-        ],
-        "placements": {
-            "average_salary": 1200000.0,
-            "highest_salary": 2500000.0,
-            "placement_rate": 95.0
-        },
-        "image_url": "https://www.kgmu.org/images/campus.jpg",
-        "rating": 9.2,
-        "field_taught": [
-            "Medical Sciences",
-            "Dentistry",
-            "Nursing"
-        ],
-        "score": 735700.0
+    "established_year": "2008",
+    "accreditation": "UGC, NAAC",
+    "total_students": 10000,
+    "admission_process": "The admission process at Teerthanker Mahaveer University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- Valid entrance examination scores (TMU Entrance Test, NEET for medical courses, JEE Main for B.Tech)\n- Counselling and document verification\n- Management quota seats available with higher fees",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "admissions@tmu.ac.in",
+      "phone": "+91-591-2360500",
+      "address": "NH-24, Delhi Road, Moradabad, Uttar Pradesh, India",
+      "website": "https://www.tmu.ac.in"
     },
-    {
-        "name": "Banaras Hindu University",
-        "type": "Central University",
-        "location": {
-            "city": "Varanasi",
-            "state": "Uttar Pradesh",
-            "country": "India",
-            "pincode": "221005"
-        },
-        "established_year": "1916",
-        "accreditation": "UGC, NAAC A",
-        "total_students": 30000,
-        "admission_process": "The admission process at Banaras Hindu University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- Valid entrance examination scores (CUET for UG/PG, NEET for medical courses)\n- Counselling and document verification\n- Document verification and fee payment",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "registrar@bhu.ac.in",
-            "phone": "+91-542-2368938",
-            "address": "Ajagara, Varanasi, Uttar Pradesh, India",
-            "website": "https://www.bhu.ac.in"
-        },
-        "courses_offered": [
-            {
-                "name": "MBBS",
-                "duration": "5.5 years",
-                "fee": 500000.0,
-                "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
-            },
-            {
-                "name": "B.Tech in Civil Engineering",
-                "duration": "4 years",
-                "fee": 800000.0,
-                "eligibility": "10+2 with PCM, minimum 50% marks, JEE Main qualification"
-            },
-            {
-                "name": "M.A. in History",
-                "duration": "2 years",
-                "fee": 50000.0,
-                "eligibility": "B.A. in relevant field, minimum 50% marks"
-            }
-        ],
-        "eligibility_criteria": {
-            "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-            "B.Tech": "10+2 with PCM, minimum 50% marks, JEE Main qualification",
-            "M.A.": "B.A. in relevant field, minimum 50% marks"
-        },
-        "acceptance_exams": [
-            "CUET",
-            "NEET UG",
-            "JEE Main"
-        ],
-        "top_recruiters": [
-            "TCS",
-            "Infosys",
-            "Government Hospitals",
-            "Research Institutes"
-        ],
-        "placements": {
-            "average_salary": 600000.0,
-            "highest_salary": 2000000.0,
-            "placement_rate": 90.0
-        },
-        "image_url": "https://www.bhu.ac.in/images/campus.jpg",
-        "rating": 9.5,
-        "field_taught": [
-            "Medical Sciences",
-            "Engineering",
-            "Arts",
-            "Science",
-            "Law"
-        ],
-        "score": 735700.0
+    "courses_offered": [
+      {
+        "name": "MBBS",
+        "duration": "5.5 years",
+        "fee": 2500000.0,
+        "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Tech in Computer Science",
+        "duration": "4 years",
+        "fee": 900000.0,
+        "eligibility": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "MBA",
+        "duration": "2 years",
+        "fee": 300000.0,
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "TMU Entrance Test",
+      "NEET UG",
+      "JEE Main",
+      "CAT",
+      "MAT"
+    ],
+    "top_recruiters": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "HCL",
+      "Private Hospitals"
+    ],
+    "placements": {
+      "average_salary": 400000.0,
+      "highest_salary": 1500000.0,
+      "placement_rate": 85.0
     },
-    {
-        "name": "Aligarh Muslim University",
-        "type": "Central University",
-        "location": {
-            "city": "Aligarh",
-            "state": "Uttar Pradesh",
-            "country": "India",
-            "pincode": "202002"
-        },
-        "established_year": "1920",
-        "accreditation": "UGC, NAAC A",
-        "total_students": 25000,
-        "admission_process": "The admission process at Aligarh Muslim University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- Valid entrance examination scores (AMU Entrance Test, NEET for medical courses, JEE Main for B.Tech)\n- Counselling and document verification\n- Document verification and fee payment",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "registrar.amu@amu.ac.in",
-            "phone": "+91-571-2700935",
-            "address": "AMU Campus, Aligarh, Uttar Pradesh, India",
-            "website": "https://www.amu.ac.in"
-        },
-        "courses_offered": [
-            {
-                "name": "MBBS",
-                "duration": "5.5 years",
-                "fee": 500000.0,
-                "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
-            },
-            {
-                "name": "B.Tech in Computer Science",
-                "duration": "4 years",
-                "fee": 800000.0,
-                "eligibility": "10+2 with PCM, minimum 50% marks, JEE Main qualification"
-            },
-            {
-                "name": "M.A. in English",
-                "duration": "2 years",
-                "fee": 50000.0,
-                "eligibility": "B.A. in relevant field, minimum 50% marks"
-            }
-        ],
-        "eligibility_criteria": {
-            "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-            "B.Tech": "10+2 with PCM, minimum 50% marks, JEE Main qualification",
-            "M.A.": "B.A. in relevant field, minimum 50% marks"
-        },
-        "acceptance_exams": [
-            "AMU Entrance Test",
-            "NEET UG",
-            "JEE Main"
-        ],
-        "top_recruiters": [
-            "TCS",
-            "Infosys",
-            "Government Hospitals",
-            "Research Institutes"
-        ],
-        "placements": {
-            "average_salary": 550000.0,
-            "highest_salary": 1800000.0,
-            "placement_rate": 85.0
-        },
-        "image_url": "https://www.amu.ac.in/images/campus.jpg",
-        "rating": 9.3,
-        "field_taught": [
-            "Medical Sciences",
-            "Engineering",
-            "Arts",
-            "Science",
-            "Law"
-        ],
-        "score": 735700.0
+    "image_url": "https://www.tmu.ac.in/images/campus.jpg",
+    "rating": 8.3,
+    "field_taught": [
+      "Medical Sciences",
+      "Engineering",
+      "Management",
+      "Law",
+      "Education"
+    ],
+    "score": 735700.0
+  },
+  {
+    "name": "Bundelkhand University",
+    "type": "State University",
+    "location": {
+      "city": "Jhansi",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "284128"
     },
-    {
-        "name": "Dr B R Ambedkar University, Agra",
-        "type": "State University",
-        "location": {
-            "city": "Agra",
-            "state": "Uttar Pradesh",
-            "country": "India",
-            "pincode": "282004"
-        },
-        "established_year": "1927",
-        "accreditation": "UGC, NAAC",
-        "total_students": 15000,
-        "admission_process": "The admission process at Dr B R Ambedkar University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- University entrance test for most courses\n- Counselling and document verification\n- Document verification and fee payment",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "registrar@dbrau.ac.in",
-            "phone": "+91-562-2522620",
-            "address": "Paliwal Park, Agra, Uttar Pradesh, India",
-            "website": "https://www.dbrau.ac.in"
-        },
-        "courses_offered": [
-            {
-                "name": "B.A. in Sociology",
-                "duration": "3 years",
-                "fee": 30000.0,
-                "eligibility": "10+2 with any stream, minimum 45% marks"
-            },
-            {
-                "name": "M.Sc. in Physics",
-                "duration": "2 years",
-                "fee": 80000.0,
-                "eligibility": "B.Sc. in relevant field, minimum 50% marks"
-            }
-        ],
-        "eligibility_criteria": {
-            "B.A.": "10+2 with any stream, minimum 45% marks",
-            "M.Sc.": "B.Sc. in relevant field, minimum 50% marks"
-        },
-        "acceptance_exams": [
-            "University Entrance Test"
-        ],
-        "top_recruiters": [
-            "Educational Institutions",
-            "Government Offices",
-            "NGOs"
-        ],
-        "placements": {
-            "average_salary": 250000.0,
-            "highest_salary": 600000.0,
-            "placement_rate": 65.0
-        },
-        "image_url": "https://www.dbrau.ac.in/images/campus.jpg",
-        "rating": 7.7,
-        "field_taught": [
-            "Arts",
-            "Science",
-            "Commerce",
-            "Education"
-        ],
-        "score": 600000.0
+    "established_year": "1975",
+    "accreditation": "UGC, NAAC",
+    "total_students": 8000,
+    "admission_process": "The admission process at Bundelkhand University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- University entrance test or UPSEE for technical courses\n- Counselling and document verification\n- Document verification and fee payment",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "admissions@bundelkhanduniv.ac.in",
+      "phone": "+91-510-2320496",
+      "address": "Kanpur Road, Jhansi, Uttar Pradesh, India",
+      "website": "https://www.bujhansi.ac.in"
     },
-    {
-        "name": "Shri Guru Ram Rai University",
-        "type": "Private University",
-        "location": {
-            "city": "Dehradun",
-            "state": "Uttarakhand",
-            "country": "India",
-            "pincode": "248001"
-        },
-        "established_year": "2017",
-        "accreditation": "UGC, NAAC",
-        "total_students": 4000,
-        "admission_process": "The admission process at Shri Guru Ram Rai University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- Valid entrance examination scores (NEET for medical courses, university entrance test for others)\n- Counselling and document verification\n- Management quota seats available with higher fees",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "admissions@sgrru.ac.in",
-            "phone": "+91-135-2726434",
-            "address": "Patel Nagar, Dehradun, Uttarakhand, India",
-            "website": "https://www.sgrru.ac.in"
-        },
-        "courses_offered": [
-            {
-                "name": "MBBS",
-                "duration": "5.5 years",
-                "fee": 2000000.0,
-                "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
-            },
-            {
-                "name": "B.Sc. Nursing",
-                "duration": "4 years",
-                "fee": 600000.0,
-                "eligibility": "10+2 with PCB, minimum 50% marks"
-            }
-        ],
-        "eligibility_criteria": {
-            "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-            "B.Sc. Nursing": "10+2 with PCB, minimum 50% marks"
-        },
-        "acceptance_exams": [
-            "NEET UG",
-            "University Entrance Test"
-        ],
-        "top_recruiters": [
-            "Private Hospitals",
-            "Nursing Homes",
-            "Medical Clinics"
-        ],
-        "placements": {
-            "average_salary": 700000.0,
-            "highest_salary": 1500000.0,
-            "placement_rate": 80.0
-        },
-        "image_url": "https://www.sgrru.ac.in/images/campus.jpg",
-        "rating": 8.1,
-        "field_taught": [
-            "Medical Sciences",
-            "Nursing",
-            "Management"
-        ],
-        "score": 735700.0
+    "courses_offered": [
+      {
+        "name": "B.Tech in Mechanical Engineering",
+        "duration": "4 years",
+        "fee": 600000.0,
+        "eligibility": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "M.Sc. in Chemistry",
+        "duration": "2 years",
+        "fee": 100000.0,
+        "eligibility": "B.Sc. in relevant field, minimum 50% marks"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks"
+      },
+      {
+        "name": "M.Sc",
+        "required": "B.Sc. in relevant field, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "UPSEE",
+      "University Entrance Test"
+    ],
+    "top_recruiters": [
+      "TCS",
+      "Infosys",
+      "Wipro",
+      "Local Industries"
+    ],
+    "placements": {
+      "average_salary": 300000.0,
+      "highest_salary": 800000.0,
+      "placement_rate": 70.0
     },
-    {
-        "name": "HNB Uttarakhand Medical Education University",
-        "type": "State University",
-        "location": {
-            "city": "Dehradun",
-            "state": "Uttarakhand",
-            "country": "India",
-            "pincode": "248001"
-        },
-        "established_year": "2014",
-        "accreditation": "UGC, NMC",
-        "total_students": 2000,
-        "admission_process": "The admission process at HNB Uttarakhand Medical Education University is merit-based and includes the following steps:\n\n- Academic performance in relevant qualifying examinations\n- Valid entrance examination scores (NEET UG for MBBS, NEET PG for MD/MS)\n- Counselling conducted by the university\n- Document verification and fee payment",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "info@hnbumu.ac.in",
-            "phone": "+91-135-2723321",
-            "address": "Dalanwala, Dehradun, Uttarakhand, India",
-            "website": "https://www.hnbumu.ac.in"
-        },
-        "courses_offered": [
-            {
-                "name": "MBBS",
-                "duration": "5.5 years",
-                "fee": 600000.0,
-                "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
-            },
-            {
-                "name": "MD in General Medicine",
-                "duration": "3 years",
-                "fee": 400000.0,
-                "eligibility": "MBBS, NEET PG qualification"
-            }
-        ],
-        "eligibility_criteria": {
-            "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-            "MD": "MBBS, NEET PG qualification"
-        },
-        "acceptance_exams": [
-            "NEET UG",
-            "NEET PG"
-        ],
-        "top_recruiters": [
-            "Government Hospitals",
-            "Private Hospitals",
-            "Medical Colleges"
-        ],
-        "placements": {
-            "average_salary": 1000000.0,
-            "highest_salary": 2000000.0,
-            "placement_rate": 90.0
-        },
-        "image_url": "https://www.hnbumu.ac.in/images/campus.jpg",
-        "rating": 8.4,
-        "field_taught": [
-            "Medical Sciences",
-            "Nursing"
-        ],
-        "score": 735700.0
+    "image_url": "https://www.bujhansi.ac.in/images/campus.jpg",
+    "rating": 7.8,
+    "field_taught": [
+      "Engineering",
+      "Science",
+      "Management",
+      "Arts"
+    ],
+    "score": 600000.0
+  },
+  {
+    "name": "C.S.J.M. University, Kanpur",
+    "type": "State University",
+    "location": {
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "208024"
     },
-    {
-        "name": "Swami Rama Himalayan University, Dehradun",
-        "type": "Private University",
-        "location": {
-            "city": "Dehradun",
-            "state": "Uttarakhand",
-            "country": "India",
-            "pincode": "248016"
-        },
-        "established_year": "2013",
-        "accreditation": "UGC, NAAC",
-        "total_students": 3000,
-        "admission_process": "The admission process at Swami Rama Himalayan University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- Valid entrance examination scores (NEET for medical courses, university entrance test for others)\n- Counselling and document verification\n- Management quota seats available with higher fees",
-        "required_documents": [
-            "10th Marksheet",
-            "12th Marksheet",
-            "Entrance Exam Scorecard",
-            "Transfer Certificate",
-            "Migration Certificate",
-            "Identity Proof",
-            "Passport Size Photographs",
-            "Caste Certificate (if applicable)",
-            "Income Certificate (if applying for scholarships)"
-        ],
-        "contact_info": {
-            "email": "admissions@srhu.edu.in",
-            "phone": "+91-135-2471600",
-            "address": "Swami Ram Nagar, Jolly Grant, Dehradun, Uttarakhand, India",
-            "website": "https://www.srhu.edu.in"
-        },
-        "courses_offered": [
-            {
-                "name": "MBBS",
-                "duration": "5.5 years",
-                "fee": 2500000.0,
-                "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
-            },
-            {
-                "name": "B.Sc. Nursing",
-                "duration": "4 years",
-                "fee": 600000.0,
-                "eligibility": "10+2 with PCB, minimum 50% marks"
-            }
-        ],
-        "eligibility_criteria": {
-            "MBBS": "10+2 with PCB, minimum 50% marks, NEET UG qualification",
-            "B.Sc. Nursing": "10+2 with PCB, minimum 50% marks"
-        },
-        "acceptance_exams": [
-            "NEET UG",
-            "University Entrance Test"
-        ],
-        "top_recruiters": [
-            "Private Hospitals",
-            "Nursing Homes",
-            "Medical Centers"
-        ],
-        "placements": {
-            "average_salary": 700000.0,
-            "highest_salary": 1500000.0,
-            "placement_rate": 85.0
-        },
-        "image_url": "https://www.srhu.edu.in/images/campus.jpg",
-        "rating": 8.3,
-        "field_taught": [
-            "Medical Sciences",
-            "Nursing",
-            "Management"
-        ],
-        "score": 735700.0
-    }
+    "established_year": "1966",
+    "accreditation": "UGC, NAAC",
+    "total_students": 10000,
+    "admission_process": "The admission process at C.S.J.M. University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- University entrance test or UPSEE for technical courses\n- Counselling and document verification\n- Document verification and fee payment",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "csjmu@kanpuruniversity.org",
+      "phone": "+91-512-2571588",
+      "address": "Kalyanpur, Kanpur, Uttar Pradesh, India",
+      "website": "https://www.csjmu.ac.in"
+    },
+    "courses_offered": [
+      {
+        "name": "B.A. in Economics",
+        "duration": "3 years",
+        "fee": 30000.0,
+        "eligibility": "10+2 with any stream, minimum 45% marks"
+      },
+      {
+        "name": "MBA",
+        "duration": "2 years",
+        "fee": 200000.0,
+        "eligibility": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "B.A.",
+        "required": "10+2 with any stream, minimum 45% marks"
+      },
+      {
+        "name": "MBA",
+        "required": "Bachelor\u2019s degree in any discipline, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "University Entrance Test",
+      "CAT",
+      "MAT"
+    ],
+    "top_recruiters": [
+      "TCS",
+      "HCL",
+      "Educational Institutions",
+      "Government Offices"
+    ],
+    "placements": {
+      "average_salary": 350000.0,
+      "highest_salary": 900000.0,
+      "placement_rate": 75.0
+    },
+    "image_url": "https://www.csjmu.ac.in/images/campus.jpg",
+    "rating": 7.9,
+    "field_taught": [
+      "Arts",
+      "Science",
+      "Commerce",
+      "Management"
+    ],
+    "score": 600000.0
+  },
+  {
+    "name": "Era University, Lucknow",
+    "type": "Private University",
+    "location": {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "226003"
+    },
+    "established_year": "2016",
+    "accreditation": "UGC",
+    "total_students": 3000,
+    "admission_process": "The admission process at Era University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- Valid entrance examination scores (NEET for medical courses, university entrance test for others)\n- Counselling and document verification\n- Management quota seats available with higher fees",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "admissions@erauniversity.in",
+      "phone": "+91-522-6600777",
+      "address": "Sarfarazganj, Hardoi Road, Lucknow, Uttar Pradesh, India",
+      "website": "https://www.erauniversity.in"
+    },
+    "courses_offered": [
+      {
+        "name": "MBBS",
+        "duration": "5.5 years",
+        "fee": 2000000.0,
+        "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Sc. Nursing",
+        "duration": "4 years",
+        "fee": 600000.0,
+        "eligibility": "10+2 with PCB, minimum 50% marks"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Sc. Nursing",
+        "required": "10+2 with PCB, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET UG",
+      "University Entrance Test"
+    ],
+    "top_recruiters": [
+      "Private Hospitals",
+      "Nursing Homes",
+      "Medical Clinics"
+    ],
+    "placements": {
+      "average_salary": 700000.0,
+      "highest_salary": 1500000.0,
+      "placement_rate": 80.0
+    },
+    "image_url": "https://www.erauniversity.in/images/campus.jpg",
+    "rating": 8.0,
+    "field_taught": [
+      "Medical Sciences",
+      "Nursing",
+      "Pharmacy"
+    ],
+    "score": 735700.0
+  },
+  {
+    "name": "Ch. Charan Singh University, Meerut",
+    "type": "State University",
+    "location": {
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "250001"
+    },
+    "established_year": "1965",
+    "accreditation": "UGC, NAAC",
+    "total_students": 12000,
+    "admission_process": "The admission process at Ch. Charan Singh University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- University entrance test for most courses\n- Counselling and document verification\n- Document verification and fee payment",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "registrar@ccsuniversity.ac.in",
+      "phone": "+91-121-2760551",
+      "address": "Ramgarhi, Meerut, Uttar Pradesh, India",
+      "website": "https://www.ccsuniversity.ac.in"
+    },
+    "courses_offered": [
+      {
+        "name": "B.Sc. in Agriculture",
+        "duration": "4 years",
+        "fee": 80000.0,
+        "eligibility": "10+2 with PCB/PCM, minimum 50% marks"
+      },
+      {
+        "name": "M.A. in English",
+        "duration": "2 years",
+        "fee": 50000.0,
+        "eligibility": "B.A. in relevant field, minimum 50% marks"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "B.Sc.",
+        "required": "10+2 with PCB/PCM, minimum 50% marks"
+      },
+      {
+        "name": "M.A.",
+        "required": "B.A. in relevant field, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "University Entrance Test"
+    ],
+    "top_recruiters": [
+      "Educational Institutions",
+      "Government Offices",
+      "Agricultural Firms"
+    ],
+    "placements": {
+      "average_salary": 300000.0,
+      "highest_salary": 700000.0,
+      "placement_rate": 70.0
+    },
+    "image_url": "https://www.ccsuniversity.ac.in/images/campus.jpg",
+    "rating": 7.8,
+    "field_taught": [
+      "Agriculture",
+      "Arts",
+      "Science",
+      "Commerce"
+    ],
+    "score": 600000.0
+  },
+  {
+    "name": "King George's Medical University, Lucknow",
+    "type": "State University",
+    "location": {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "226003"
+    },
+    "established_year": "1905",
+    "accreditation": "UGC, NMC, NAAC",
+    "total_students": 5000,
+    "admission_process": "The admission process at King George's Medical University is merit-based and includes the following steps:\n\n- Academic performance in relevant qualifying examinations\n- Valid entrance examination scores (NEET UG for MBBS, NEET PG for MD/MS)\n- Counselling conducted by DMET, UP\n- Document verification and fee payment",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "info@kgmu.org",
+      "phone": "+91-522-2257450",
+      "address": "Shah Mina Road, Chowk, Lucknow, Uttar Pradesh, India",
+      "website": "https://www.kgmu.org"
+    },
+    "courses_offered": [
+      {
+        "name": "MBBS",
+        "duration": "5.5 years",
+        "fee": 600000.0,
+        "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "MD in General Medicine",
+        "duration": "3 years",
+        "fee": 400000.0,
+        "eligibility": "MBBS, NEET PG qualification"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "MD",
+        "required": "MBBS, NEET PG qualification"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET UG",
+      "NEET PG"
+    ],
+    "top_recruiters": [
+      "Government Hospitals",
+      "Private Hospitals",
+      "Medical Research Institutes"
+    ],
+    "placements": {
+      "average_salary": 1200000.0,
+      "highest_salary": 2500000.0,
+      "placement_rate": 95.0
+    },
+    "image_url": "https://www.kgmu.org/images/campus.jpg",
+    "rating": 9.2,
+    "field_taught": [
+      "Medical Sciences",
+      "Dentistry",
+      "Nursing"
+    ],
+    "score": 735700.0
+  },
+  {
+    "name": "Banaras Hindu University",
+    "type": "Central University",
+    "location": {
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "221005"
+    },
+    "established_year": "1916",
+    "accreditation": "UGC, NAAC A",
+    "total_students": 30000,
+    "admission_process": "The admission process at Banaras Hindu University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- Valid entrance examination scores (CUET for UG/PG, NEET for medical courses)\n- Counselling and document verification\n- Document verification and fee payment",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "registrar@bhu.ac.in",
+      "phone": "+91-542-2368938",
+      "address": "Ajagara, Varanasi, Uttar Pradesh, India",
+      "website": "https://www.bhu.ac.in"
+    },
+    "courses_offered": [
+      {
+        "name": "MBBS",
+        "duration": "5.5 years",
+        "fee": 500000.0,
+        "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Tech in Civil Engineering",
+        "duration": "4 years",
+        "fee": 800000.0,
+        "eligibility": "10+2 with PCM, minimum 50% marks, JEE Main qualification"
+      },
+      {
+        "name": "M.A. in History",
+        "duration": "2 years",
+        "fee": 50000.0,
+        "eligibility": "B.A. in relevant field, minimum 50% marks"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks, JEE Main qualification"
+      },
+      {
+        "name": "M.A.",
+        "required": "B.A. in relevant field, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "CUET",
+      "NEET UG",
+      "JEE Main"
+    ],
+    "top_recruiters": [
+      "TCS",
+      "Infosys",
+      "Government Hospitals",
+      "Research Institutes"
+    ],
+    "placements": {
+      "average_salary": 600000.0,
+      "highest_salary": 2000000.0,
+      "placement_rate": 90.0
+    },
+    "image_url": "https://www.bhu.ac.in/images/campus.jpg",
+    "rating": 9.5,
+    "field_taught": [
+      "Medical Sciences",
+      "Engineering",
+      "Arts",
+      "Science",
+      "Law"
+    ],
+    "score": 735700.0
+  },
+  {
+    "name": "Aligarh Muslim University",
+    "type": "Central University",
+    "location": {
+      "city": "Aligarh",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "202002"
+    },
+    "established_year": "1920",
+    "accreditation": "UGC, NAAC A",
+    "total_students": 25000,
+    "admission_process": "The admission process at Aligarh Muslim University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- Valid entrance examination scores (AMU Entrance Test, NEET for medical courses, JEE Main for B.Tech)\n- Counselling and document verification\n- Document verification and fee payment",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "registrar.amu@amu.ac.in",
+      "phone": "+91-571-2700935",
+      "address": "AMU Campus, Aligarh, Uttar Pradesh, India",
+      "website": "https://www.amu.ac.in"
+    },
+    "courses_offered": [
+      {
+        "name": "MBBS",
+        "duration": "5.5 years",
+        "fee": 500000.0,
+        "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Tech in Computer Science",
+        "duration": "4 years",
+        "fee": 800000.0,
+        "eligibility": "10+2 with PCM, minimum 50% marks, JEE Main qualification"
+      },
+      {
+        "name": "M.A. in English",
+        "duration": "2 years",
+        "fee": 50000.0,
+        "eligibility": "B.A. in relevant field, minimum 50% marks"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Tech",
+        "required": "10+2 with PCM, minimum 50% marks, JEE Main qualification"
+      },
+      {
+        "name": "M.A.",
+        "required": "B.A. in relevant field, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "AMU Entrance Test",
+      "NEET UG",
+      "JEE Main"
+    ],
+    "top_recruiters": [
+      "TCS",
+      "Infosys",
+      "Government Hospitals",
+      "Research Institutes"
+    ],
+    "placements": {
+      "average_salary": 550000.0,
+      "highest_salary": 1800000.0,
+      "placement_rate": 85.0
+    },
+    "image_url": "https://www.amu.ac.in/images/campus.jpg",
+    "rating": 9.3,
+    "field_taught": [
+      "Medical Sciences",
+      "Engineering",
+      "Arts",
+      "Science",
+      "Law"
+    ],
+    "score": 735700.0
+  },
+  {
+    "name": "Dr B R Ambedkar University, Agra",
+    "type": "State University",
+    "location": {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "282004"
+    },
+    "established_year": "1927",
+    "accreditation": "UGC, NAAC",
+    "total_students": 15000,
+    "admission_process": "The admission process at Dr B R Ambedkar University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- University entrance test for most courses\n- Counselling and document verification\n- Document verification and fee payment",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "registrar@dbrau.ac.in",
+      "phone": "+91-562-2522620",
+      "address": "Paliwal Park, Agra, Uttar Pradesh, India",
+      "website": "https://www.dbrau.ac.in"
+    },
+    "courses_offered": [
+      {
+        "name": "B.A. in Sociology",
+        "duration": "3 years",
+        "fee": 30000.0,
+        "eligibility": "10+2 with any stream, minimum 45% marks"
+      },
+      {
+        "name": "M.Sc. in Physics",
+        "duration": "2 years",
+        "fee": 80000.0,
+        "eligibility": "B.Sc. in relevant field, minimum 50% marks"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "B.A.",
+        "required": "10+2 with any stream, minimum 45% marks"
+      },
+      {
+        "name": "M.Sc.",
+        "required": "B.Sc. in relevant field, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "University Entrance Test"
+    ],
+    "top_recruiters": [
+      "Educational Institutions",
+      "Government Offices",
+      "NGOs"
+    ],
+    "placements": {
+      "average_salary": 250000.0,
+      "highest_salary": 600000.0,
+      "placement_rate": 65.0
+    },
+    "image_url": "https://www.dbrau.ac.in/images/campus.jpg",
+    "rating": 7.7,
+    "field_taught": [
+      "Arts",
+      "Science",
+      "Commerce",
+      "Education"
+    ],
+    "score": 600000.0
+  },
+  {
+    "name": "Shri Guru Ram Rai University",
+    "type": "Private University",
+    "location": {
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "country": "India",
+      "pincode": "248001"
+    },
+    "established_year": "2017",
+    "accreditation": "UGC, NAAC",
+    "total_students": 4000,
+    "admission_process": "The admission process at Shri Guru Ram Rai University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- Valid entrance examination scores (NEET for medical courses, university entrance test for others)\n- Counselling and document verification\n- Management quota seats available with higher fees",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "admissions@sgrru.ac.in",
+      "phone": "+91-135-2726434",
+      "address": "Patel Nagar, Dehradun, Uttarakhand, India",
+      "website": "https://www.sgrru.ac.in"
+    },
+    "courses_offered": [
+      {
+        "name": "MBBS",
+        "duration": "5.5 years",
+        "fee": 2000000.0,
+        "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Sc. Nursing",
+        "duration": "4 years",
+        "fee": 600000.0,
+        "eligibility": "10+2 with PCB, minimum 50% marks"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Sc. Nursing",
+        "required": "10+2 with PCB, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET UG",
+      "University Entrance Test"
+    ],
+    "top_recruiters": [
+      "Private Hospitals",
+      "Nursing Homes",
+      "Medical Clinics"
+    ],
+    "placements": {
+      "average_salary": 700000.0,
+      "highest_salary": 1500000.0,
+      "placement_rate": 80.0
+    },
+    "image_url": "https://www.sgrru.ac.in/images/campus.jpg",
+    "rating": 8.1,
+    "field_taught": [
+      "Medical Sciences",
+      "Nursing",
+      "Management"
+    ],
+    "score": 735700.0
+  },
+  {
+    "name": "HNB Uttarakhand Medical Education University",
+    "type": "State University",
+    "location": {
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "country": "India",
+      "pincode": "248001"
+    },
+    "established_year": "2014",
+    "accreditation": "UGC, NMC",
+    "total_students": 2000,
+    "admission_process": "The admission process at HNB Uttarakhand Medical Education University is merit-based and includes the following steps:\n\n- Academic performance in relevant qualifying examinations\n- Valid entrance examination scores (NEET UG for MBBS, NEET PG for MD/MS)\n- Counselling conducted by the university\n- Document verification and fee payment",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "info@hnbumu.ac.in",
+      "phone": "+91-135-2723321",
+      "address": "Dalanwala, Dehradun, Uttarakhand, India",
+      "website": "https://www.hnbumu.ac.in"
+    },
+    "courses_offered": [
+      {
+        "name": "MBBS",
+        "duration": "5.5 years",
+        "fee": 600000.0,
+        "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "MD in General Medicine",
+        "duration": "3 years",
+        "fee": 400000.0,
+        "eligibility": "MBBS, NEET PG qualification"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "MD",
+        "required": "MBBS, NEET PG qualification"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET UG",
+      "NEET PG"
+    ],
+    "top_recruiters": [
+      "Government Hospitals",
+      "Private Hospitals",
+      "Medical Colleges"
+    ],
+    "placements": {
+      "average_salary": 1000000.0,
+      "highest_salary": 2000000.0,
+      "placement_rate": 90.0
+    },
+    "image_url": "https://www.hnbumu.ac.in/images/campus.jpg",
+    "rating": 8.4,
+    "field_taught": [
+      "Medical Sciences",
+      "Nursing"
+    ],
+    "score": 735700.0
+  },
+  {
+    "name": "Swami Rama Himalayan University, Dehradun",
+    "type": "Private University",
+    "location": {
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "country": "India",
+      "pincode": "248016"
+    },
+    "established_year": "2013",
+    "accreditation": "UGC, NAAC",
+    "total_students": 3000,
+    "admission_process": "The admission process at Swami Rama Himalayan University is merit-based and includes the following steps:\n\n- Academic performance in 10+2 or equivalent examination for UG courses, and bachelor's degree for PG courses\n- Valid entrance examination scores (NEET for medical courses, university entrance test for others)\n- Counselling and document verification\n- Management quota seats available with higher fees",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "admissions@srhu.edu.in",
+      "phone": "+91-135-2471600",
+      "address": "Swami Ram Nagar, Jolly Grant, Dehradun, Uttarakhand, India",
+      "website": "https://www.srhu.edu.in"
+    },
+    "courses_offered": [
+      {
+        "name": "MBBS",
+        "duration": "5.5 years",
+        "fee": 2500000.0,
+        "eligibility": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Sc. Nursing",
+        "duration": "4 years",
+        "fee": 600000.0,
+        "eligibility": "10+2 with PCB, minimum 50% marks"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "MBBS",
+        "required": "10+2 with PCB, minimum 50% marks, NEET UG qualification"
+      },
+      {
+        "name": "B.Sc. Nursing",
+        "required": "10+2 with PCB, minimum 50% marks"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET UG",
+      "University Entrance Test"
+    ],
+    "top_recruiters": [
+      "Private Hospitals",
+      "Nursing Homes",
+      "Medical Centers"
+    ],
+    "placements": {
+      "average_salary": 700000.0,
+      "highest_salary": 1500000.0,
+      "placement_rate": 85.0
+    },
+    "image_url": "https://www.srhu.edu.in/images/campus.jpg",
+    "rating": 8.3,
+    "field_taught": [
+      "Medical Sciences",
+      "Nursing",
+      "Management"
+    ],
+    "score": 735700.0
+  }
 ]

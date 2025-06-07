@@ -198,13 +198,9 @@ app.get("/api/get-colleges", async (req, res) => {
   const regexCategory = category ? new RegExp(category, "i") : /.*/;
   const regexBranch = branch ? new RegExp(branch, "i") : /.*/;
 
+  console.log("Received query parameters:", { category, branch });
   try {
-    const colleges = await Institution.find({
-      $and: [
-        { "courses_offered.name": regexCategory },
-        { field_taught: regexBranch },
-      ],
-    }).sort({ score: -1 });
+    const colleges = await Institution.find({ "eligibility_criteria.name": { $regex: regexCategory } }).sort({ score: -1 });
 
     console.log(
       "Data fetched from database:",
@@ -250,6 +246,7 @@ app.get("/api/get-college-info", async (req, res) => {
 app.get("/api/get-top-list", async (req, res) => {
   const query = req.query.query;
   const course = req.query.course;
+  
   console.log("Received query:", query);
 
   try {
@@ -274,9 +271,6 @@ app.get("/api/get-top-list", async (req, res) => {
     const colleges = await Institution.find({
       $or: [
         { name: regex },
-        { type: regex },
-        { top_recruiters: { $regex: regex } },
-        { acceptance_exams: { $regex: regex } },
         { "location.city": regex },
         { "location.state": regex },
         { "courses_offered.name": { $regex: regex } },
@@ -295,4 +289,7 @@ app.get("/api/get-top-list", async (req, res) => {
   }
 });
 // Start server
-export default serverless(app);
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+// export default serverless(app);

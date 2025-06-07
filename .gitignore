@@ -55,4 +55,5 @@ Thumbs.db
 
 
 crawler/.venv
+crawler/.env
 .vercel
