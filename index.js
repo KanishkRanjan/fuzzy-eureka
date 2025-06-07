@@ -193,7 +193,6 @@ app.get("/api/get-colleges", async (req, res) => {
   const { category, branch, search } = req.query;
 
   if (search) {
-
     console.log("Search query received:", search);
     const regex = new RegExp(search, "i");
     try {
@@ -314,6 +313,57 @@ app.get("/api/get-top-list", async (req, res) => {
     res
       .status(500)
       .send({ success: false, message: "Error fetching colleges." });
+  }
+});
+
+app.post("/api/submit-contact-form", async (req, res) => {
+  const { name, email, phone, subject, message } = req.query;
+  console.log("Received contact form data:", req.query);
+  if (!name || !email || !phone || !subject) {
+    console.error("Missing required fields:", {
+      name,
+      email,
+      phone,
+      subject,
+      message,
+    });
+    
+    return res
+      .status(400)
+      .json({ success: false, message: "All fields are required." });
+  }
+
+  // Schema
+  const contactSchema = new mongoose.Schema({
+    name: String,
+    email: String,
+    phone: String,
+    subject: String,
+    message: String,
+  });
+
+  // Model with specific collection name `shiksha_contact`
+  const Contact = mongoose.model("Contact", contactSchema, "shiksha_contact");
+  try {
+    const newContact = new Contact({
+      name,
+      email,
+      phone,
+      subject,
+      message,
+    });
+    await newContact.save();
+
+    console.log(`Contact form submitted by ${name}.`);
+    res.json({
+      success: true,
+      message: `Form submitted successfully by ${name}`,
+    });
+  } catch (err) {
+    console.error("Error saving contact form data:", err);
+    res
+      .status(500)
+      .json({ success: false, message: "Error saving contact form data." });
   }
 });
 // Start server
