@@ -20,8 +20,6 @@ app.use(
 // Middleware (optional)
 app.use(express.json());
 
-
-
 app.use(async (req, res, next) => {
   await connectDB();
   next();
@@ -32,7 +30,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/api/save-applied-college", async (req, res) => {
-  const { name , email , phone , college_id , message } = req.body;
+  const { name, email, phone, college_id, message } = req.body;
   if (!name || !email || !phone || !college_id) {
     console.error("Missing required fields:", {
       name,
@@ -45,7 +43,9 @@ app.post("/api/save-applied-college", async (req, res) => {
       .status(400)
       .json({ success: false, message: "All fields are required." });
   }
-  console.log(`Form submitted by: ${name}, Email: ${email}, Phone: ${phone}, College ID: ${college_id}`);
+  console.log(
+    `Form submitted by: ${name}, Email: ${email}, Phone: ${phone}, College ID: ${college_id}`
+  );
   // Schema
   const appliedSchema = new mongoose.Schema({
     name: String,
@@ -59,12 +59,12 @@ app.post("/api/save-applied-college", async (req, res) => {
     "AppliedCollege",
     appliedSchema,
     "shiksha_applied_colleges"
-  );  
+  );
   try {
     const newAppliedCollege = new AppliedCollege({
       name,
       email,
-      phone,    
+      phone,
       college_id,
       message,
     });
@@ -81,7 +81,6 @@ app.post("/api/save-applied-college", async (req, res) => {
       .json({ success: false, message: "Error saving applied college data." });
   }
 });
-
 
 app.post("/api/submit-counseling-request", async (req, res) => {
   const { fullname, email, phone, interestedCourse } = req.body;
@@ -158,9 +157,7 @@ app.post("/api/save-response", async (req, res) => {
     city: String,
     course: String,
   });
-  console.log(
-    `Form submitted by: ${name}, Email: ${email}, Phone: ${phone}`
-  );
+  console.log(`Form submitted by: ${name}, Email: ${email}, Phone: ${phone}`);
 
   const Response = mongoose.model(
     "Response",
@@ -193,14 +190,45 @@ app.post("/api/save-response", async (req, res) => {
 });
 
 app.get("/api/get-colleges", async (req, res) => {
-  const { category, branch } = req.query;
+  const { category, branch, search } = req.query;
+
+  if (search) {
+
+    console.log("Search query received:", search);
+    const regex = new RegExp(search, "i");
+    try {
+      const colleges = await Institution.find({
+        $or: [
+          { name: regex },
+          { "location.city": regex },
+          { "location.state": regex },
+          { "courses_offered.name": { $regex: regex } },
+        ],
+      }).sort({ score: -1 });
+
+      console.log(
+        "Data fetched from database:",
+        colleges.length,
+        "records found."
+      );
+      if (colleges.length !== 0)
+        return res.status(200).send({ success: true, colleges });
+    } catch (err) {
+      console.error("Error fetching colleges:", err);
+      return res
+        .status(500)
+        .send({ success: false, message: "Error fetching colleges." });
+    }
+  }
 
   const regexCategory = category ? new RegExp(category, "i") : /.*/;
   const regexBranch = branch ? new RegExp(branch, "i") : /.*/;
 
   console.log("Received query parameters:", { category, branch });
   try {
-    const colleges = await Institution.find({ "eligibility_criteria.name": { $regex: regexCategory } }).sort({ score: -1 });
+    const colleges = await Institution.find({
+      "eligibility_criteria.name": { $regex: regexCategory },
+    }).sort({ score: -1 });
 
     console.log(
       "Data fetched from database:",
@@ -246,7 +274,7 @@ app.get("/api/get-college-info", async (req, res) => {
 app.get("/api/get-top-list", async (req, res) => {
   const query = req.query.query;
   const course = req.query.course;
-  
+
   console.log("Received query:", query);
 
   try {
