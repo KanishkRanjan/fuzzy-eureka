@@ -7,9 +7,9 @@ import mongoose from "mongoose";
 
 import serverless from "serverless-http";
 
-import Institution from "../colleges_schema.js";
+import Institution from "./colleges_schema.js";
 
-import connectDB from "../connection.js";
+import connectDB from "./connection.js";
 
 app.use(
   cors({
