@@ -1,80 +1,80 @@
-  [
-    {
-      "name": "Gujarat University of Transplantation Sciences",
-      "type": "State University",
-      "location": {
-        "city": "Ahmedabad",
-        "state": "Gujarat",
-        "country": "India",
-        "pincode": "380016"
-      },
-      "established_year": "2015",
-      "accreditation": "UGC",
-      "total_students": 500,
-      "admission_process": "The admission process at Gujarat University of Transplantation Sciences is merit-based and includes the following steps:\n\n- Academic performance in relevant qualifying examinations (e.g., 10+2 for UG, bachelor's degree for PG)\n- Valid entrance examination scores (NEET UG for medical courses, NEET PG for postgraduate courses)\n- Counselling conducted by the Gujarat State Counselling Authority\n- Document verification and fee payment",
-      "required_documents": [
-        "10th Marksheet",
-        "12th Marksheet",
-        "Entrance Exam Scorecard",
-        "Transfer Certificate",
-        "Migration Certificate",
-        "Identity Proof",
-        "Passport Size Photographs",
-        "Caste Certificate (if applicable)",
-        "Income Certificate (if applying for scholarships)"
-      ],
-      "contact_info": {
-        "email": "info@guts.ac.in",
-        "phone": "+91-79-22685656",
-        "address": "IKDRC-ITS Premises, Civil Hospital Campus, Asarwa, Ahmedabad, Gujarat, India",
-        "website": "https://www.guts.ac.in"
-      },
-      "courses_offered": [
-        {
-          "name": "M.Ch in Transplant Surgery",
-          "duration": "3 years",
-          "fee": 500000.0,
-          "eligibility": "MS/MD in relevant field, NEET SS qualification"
-        },
-        {
-          "name": "DM in Transplant Medicine",
-          "duration": "3 years",
-          "fee": 500000.0,
-          "eligibility": "MD in relevant field, NEET SS qualification"
-        }
-      ],
-      "eligibility_criteria": [
-        {
-          "name": "M.Ch",
-          "required": "MS/MD in relevant field, NEET SS qualification"
-        },
-        {
-          "name": "DM",
-          "required": "MD in relevant field, NEET SS qualification"
-        }
-      ],
-      "acceptance_exams": [
-        "NEET SS",
-        "NEET PG"
-      ],
-      "top_recruiters": [
-        "Government Hospitals",
-        "Private Transplant Centers",
-        "Research Institutes"
-      ],
-      "placements": {
-        "average_salary": 1500000.0,
-        "highest_salary": 3000000.0,
-        "placement_rate": 95.0
-      },
-      "image_url": "https://www.guts.ac.in/images/campus.jpg",
-      "rating": 8.8,
-      "field_taught": [
-        "Medical Sciences",
-        "Transplantation Sciences"
-      ],
-      "score": 735700.0
+[
+  {
+    "name": "Gujarat University of Transplantation Sciences",
+    "type": "State University",
+    "location": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India",
+      "pincode": "380016"
     },
+    "established_year": "2015",
+    "accreditation": "UGC",
+    "total_students": 500,
+    "admission_process": "The admission process at Gujarat University of Transplantation Sciences is merit-based and includes the following steps:\n\n- Academic performance in relevant qualifying examinations (e.g., 10+2 for UG, bachelor's degree for PG)\n- Valid entrance examination scores (NEET UG for medical courses, NEET PG for postgraduate courses)\n- Counselling conducted by the Gujarat State Counselling Authority\n- Document verification and fee payment",
+    "required_documents": [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Scorecard",
+      "Transfer Certificate",
+      "Migration Certificate",
+      "Identity Proof",
+      "Passport Size Photographs",
+      "Caste Certificate (if applicable)",
+      "Income Certificate (if applying for scholarships)"
+    ],
+    "contact_info": {
+      "email": "info@guts.ac.in",
+      "phone": "+91-79-22685656",
+      "address": "IKDRC-ITS Premises, Civil Hospital Campus, Asarwa, Ahmedabad, Gujarat, India",
+      "website": "https://www.guts.ac.in"
+    },
+    "courses_offered": [
+      {
+        "name": "M.Ch in Transplant Surgery",
+        "duration": "3 years",
+        "fee": 500000.0,
+        "eligibility": "MS/MD in relevant field, NEET SS qualification"
+      },
+      {
+        "name": "DM in Transplant Medicine",
+        "duration": "3 years",
+        "fee": 500000.0,
+        "eligibility": "MD in relevant field, NEET SS qualification"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "M.Ch",
+        "required": "MS/MD in relevant field, NEET SS qualification"
+      },
+      {
+        "name": "DM",
+        "required": "MD in relevant field, NEET SS qualification"
+      }
+    ],
+    "acceptance_exams": [
+      "NEET SS",
+      "NEET PG"
+    ],
+    "top_recruiters": [
+      "Government Hospitals",
+      "Private Transplant Centers",
+      "Research Institutes"
+    ],
+    "placements": {
+      "average_salary": 1500000.0,
+      "highest_salary": 3000000.0,
+      "placement_rate": 95.0
+    },
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHbswpH_Jg_EPkE1sEzGOewxM0-8JJYc_Gdg&s",
+    "rating": 8.8,
+    "field_taught": [
+      "Medical Sciences",
+      "Transplantation Sciences"
+    ],
+    "score": 735700.0
+  },
   {
     "name": "Bhopal Memorial Hospital and Research Centre",
     "type": "Statutory Autonomous",
@@ -143,7 +143,7 @@
       "highest_salary": 2800000.0,
       "placement_rate": 90.0
     },
-    "image_url": "https://bmhrc.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npTwh7queHDxs0KUyS9BZ6kgjOCn1ARUuVT9VtLkj43cSCExTO708jk3V5SVtp58GytCUeh3uzrRyj4RupbEaq5Q0dJcJFb4Ba84bwcg51Kqj9ZwaVxNY130-aSubtDc3F33e5c=s1360-w1360-h1020-rw",
     "rating": 8.7,
     "field_taught": [
       "Medical Sciences",
@@ -247,7 +247,7 @@
       "highest_salary": 1200000.0,
       "placement_rate": 79.5
     },
-    "image_url": "https://svu.edu.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4norwCp8d3I8ZelFpW5pW7ckEPF1gm2q_RPJle9RuSr5eH9qAqpOn_NAmcOm5em4niA64ZRu87CrJydT1Q7c5ShjwqMxa-EU94I-yKP1DctO6LheFl35hN2PMSYfWS3fiuNlhJgq=s1360-w1360-h1020-rw",
     "rating": 8.2,
     "field_taught": [
       "Engineering",
@@ -327,7 +327,7 @@
       "highest_salary": 2500000.0,
       "placement_rate": 92.0
     },
-    "image_url": "https://abvmu.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr_VHT9hnLoKZteO36J1h9OadvBQ9mCAv3ozOtWSF-FFWgxeEU4M0Zdar1zriskOqVBspynuU_Klgujn9BKXqrvK4d5ocawsg2JzKoBtCJbAhFjJXoe5l2gKL2Qw1MN7PTt1jmb=s1360-w1360-h1020-rw",
     "rating": 8.2,
     "field_taught": [
       "Medical Sciences"
@@ -428,7 +428,7 @@
       "highest_salary": 1800000.0,
       "placement_rate": 85.0
     },
-    "image_url": "https://www.paruluniversity.ac.in/images/campus.jpg",
+    "image_url": "https://mbaedusarthi.com/wp-content/uploads/2022/12/Parul-University-vadodara.jpg",
     "rating": 8.5,
     "field_taught": [
       "Engineering",
@@ -534,7 +534,7 @@
       "highest_salary": 2100000.0,
       "placement_rate": 90.0
     },
-    "image_url": "https://www.gitam.edu/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npnUnGjSn9v1pJG1jnc8isvptjb4rh2j8DogwH6M6xYiveeywxk8RHGT6kTdD2SLFhOa0vS-L2kby_R7h4X_bxyNk7XCEXw3s7wtBxkLpgPqWlf_khBxifu2l5nQilrjH87E6wl=s1360-w1360-h1020-rw",
     "rating": 8.7,
     "field_taught": [
       "Engineering",
@@ -580,7 +580,7 @@
       "highest_salary": 0.0,
       "placement_rate": 0.0
     },
-    "image_url": "https://www.natboard.edu.in/images/office.jpg",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNvjLRtBaCDAPegBYMBRtL0xR5Q35WWNsV7A&s",
     "rating": 9.0,
     "field_taught": [
       "Medical Examinations"
@@ -655,7 +655,7 @@
       "highest_salary": 2000000.0,
       "placement_rate": 95.0
     },
-    "image_url": "https://wbuhs.ac.in/images/campus.jpg",
+    "image_url": "https://wbuhs.ac.in/wp-content/uploads/2025/03/Website_photo_1.jpg",
     "rating": 8.5,
     "field_taught": [
       "Medical Sciences",
@@ -732,7 +732,7 @@
       "highest_salary": 1800000.0,
       "placement_rate": 90.0
     },
-    "image_url": "https://www.upums.ac.in/images/campus.jpg",
+    "image_url": "https://image-static.collegedunia.com/public/college_data/images/appImage/1521183977cvrmge.png?h=260&w=360&mode=crop",
     "rating": 8.3,
     "field_taught": [
       "Medical Sciences",
@@ -810,7 +810,7 @@
       "highest_salary": 800000.0,
       "placement_rate": 70.0
     },
-    "image_url": "https://dsmnru.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npy9dphB9ZYf2p5RgcR_4-F1iUklobwC8nCYkdumGmL4_QgpYTZn3V5YdZ7db7baOyzPq45IDtOQwMSucFnBJ6KKvyQimt46oCQ90sFZv059hsHkRLtoSGQ31X_VGppFIxkIgB3=s1360-w1360-h1020-rw",
     "rating": 8.0,
     "field_taught": [
       "Special Education",
@@ -901,7 +901,7 @@
       "highest_salary": 1200000.0,
       "placement_rate": 80.0
     },
-    "image_url": "https://www.ramauniversity.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/p/AF1QipMiS1M0-wyB7kfJhn44AALJS9JtIZcQFa2P_fgu=s1360-w1360-h1020-rw",
     "rating": 8.3,
     "field_taught": [
       "Medical Sciences",
@@ -980,7 +980,7 @@
       "highest_salary": 800000,
       "placement_rate": 70.0
     },
-    "image_url": "https://www.mjpru.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrDxvMThyLZov85BzxGjN_V_f4c6PZGcPG5w6DIySSQq2EB7iBbaQBlxOuDdAJYS1MQy4X5Lyiax_qVtwcSCV-TqmVurfj25iiebjN_Yx0ANvqhdN0giYRdCzy-qATbKYfAG1EejA=s1360-w1360-h1020-rw",
     "rating": 7.8,
     "field_taught": [
       "Engineering",
@@ -1057,7 +1057,7 @@
       "highest_salary": 600000,
       "placement_rate": 65.0
     },
-    "image_url": "https://www.rmlau.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrHs99_iAcMfRt-gX-TnXIYYjwIbFoh-WD8JdFdCaZQHaMR0a5WGTTDw94sX_X8xeNTwgj4jrFBe4ryIXYzF-RwXOcDs4RY4WBLYe-a9i53h84E2enDjqgxz4LUsvfH7l5PbkCRDg=s1360-w1360-h1020-rw",
     "rating": 7.5,
     "field_taught": [
       "Arts",
@@ -1150,7 +1150,7 @@
       "highest_salary": "1500000",
       "placement_rate": 80.0
     },
-    "image_url": "https://www.iul.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrBsZ_eJheWy5NwDO6oadFfnlivG_Wpd1WLlLXYOz43t5Iv6TwkebN2Ex19eX0i8BbXLiEd5w4Fp5ofr3nJpScHAlUNqi2Q3w0IhmWga4BXGDK3KKd__Cz-sJWW88dTD_hozJhc=s1360-w1360-h1020-rw",
     "rating": 8.2,
     "field_taught": [
       "Engineering",
@@ -1228,7 +1228,7 @@
       "highest_salary": "500000",
       "placement_rate": 60.0
     },
-    "image_url": "https://www.mgkvp.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq8D1qH24UpK-f44aFgSPFSpJGlydS3wmWwIwmtbnT992Yh_h22x6RXaiVLmN0zsq47c1M9XhMKmVblRfS02OKOee8fnSaRhWShc1Ge7sOR82-jy-_QbmwsqK_CdYEYjTIt2Ecfrw=s1360-w1360-h1020-rw",
     "rating": 7.6,
     "field_taught": [
       "Arts",
@@ -1306,7 +1306,7 @@
       "highest_salary": "2500000",
       "placement_rate": "90.0"
     },
-    "image_url": "https://www.santosh.ac.in/images/campus.jpg",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn-8L0pvgOuBNHYUbNX-xdk9iNG0c59PUXgA&s",
     "rating": "8.4",
     "field_taught": [
       "Medical Sciences",
@@ -1398,7 +1398,7 @@
       "highest_salary": "2000000",
       "placement_rate": "85.0"
     },
-    "image_url": "https://www.sharda.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/p/AF1QipNoLZLn51qSXU89UKr_-AtXl0ib0q6uAIF2V7wZ=s1360-w1360-h1020-rw",
     "rating": 8.5,
     "field_taught": [
       "Engineering",
@@ -1478,7 +1478,7 @@
       "highest_salary": "1500000",
       "placement_rate": "80.0"
     },
-    "image_url": "https://www.biu.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nokHBFnH7ogRkHSJ6MxkwfsGcYFMFYL0dNdW8WXPz8oIaYT7-UhWT-dxFAOqlo_tq7im-HeqKr1sPU-6HsUXtOqWZgrL9d6M0auv1F2ScWJsH_NI06Fdf5xqwDAnLWKaDhZZn9F=s1360-w1360-h1020-rw",
     "rating": "7.8",
     "field_taught": [
       "Medical Sciences",
@@ -1569,7 +1569,7 @@
       "highest_salary": "1500000",
       "placement_rate": "85.0"
     },
-    "image_url": "https://www.subharti.org/images/campus.jpg",
+    "image_url": "https://colleges18.s3.ap-south-1.amazonaws.com/Swami_Vivekandan_Calicut_6d2109874b.webp",
     "rating": "8.4",
     "field_taught": [
       "Medical Sciences",
@@ -1666,7 +1666,7 @@
       "highest_salary": 2260000.0,
       "placement_rate": 85.0
     },
-    "image_url": "https://www.alliance.edu.in/images/campus.jpg",
+    "image_url": "https://images.shiksha.com/mediadata/images/1715756697phpns94FV.jpeg",
     "rating": 8.6,
     "field_taught": [
       "Engineering",
@@ -1770,7 +1770,7 @@
       "highest_salary": 5000000.0,
       "placement_rate": 95.0
     },
-    "image_url": "https://www.msrit.edu/images/campus.jpg",
+    "image_url": "https://5.imimg.com/data5/JY/RS/VJ/SELLER-14361556/ms-ramaiah.jpg",
     "rating": 8.9,
     "field_taught": [
       "Engineering",
@@ -1874,7 +1874,7 @@
       "highest_salary": 9200000.0,
       "placement_rate": 96.6
     },
-    "image_url": "https://www.rvce.edu.in/sites/default/files/rvce-campus.jpg",
+    "image_url": "https://rvce.edu.in/sites/default/files/styles/slider/public/PIC015-converted-20%25.jpg?itok=I7U60Fq8",
     "rating": 9.0,
     "field_taught": [
       "Engineering",
@@ -1986,7 +1986,7 @@
       "highest_salary": 3310000.0,
       "placement_rate": 92.0
     },
-    "image_url": "https://www.bmsce.ac.in/assets/images/BMSCE-Campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4no3XD918FGy5NMAwuGIKHKxb6lzcse8-BraLnEG5RZkGv8DUO3ANRtIG06M91YYlbpPvGI1p8tM_x133zd_QzwYi8m-33NzV0sUCGTVXfv79yvvmK-XiyUzCD4V9gi_BggNw-s1=s1360-w1360-h1020-rw",
     "rating": 8.9,
     "field_taught": [
       "Engineering",
@@ -2099,7 +2099,7 @@
       "highest_salary": 6500000.0,
       "placement_rate": 93.0
     },
-    "image_url": "https://www.pes.edu/wp-content/uploads/2022/08/PESU-Campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noHzWpB79qcfrb31d54IL-jqVCzCi7VU9LbeH69Laf780Fge7weUjLEBZsVQRFFRl-ODjPuRlw7taUhv4GQ6JjFnFEOpciSDBufLB5aWs-gBZQlJ9QHj2tINf4gU9riQ11JyvM48Q=s1360-w1360-h1020-rw",
     "rating": 8.8,
     "field_taught": [
       "Engineering",
@@ -2214,7 +2214,7 @@
       "highest_salary": 3500000.0,
       "placement_rate": 90.0
     },
-    "image_url": "https://newhorizoncollegeofengineering.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqg2wAEu-8uUveVnZJS2C4mKihAXeE-AMTrHr9jeZYuUrhqqFJGIj8Vhyq2k0Ter0cL8Z8pDxrtiKwmMtYh2OsQJAPjfkXgF3Ut6fu79CtyyyhGzKcyIhd8NAV5LRARpiYzmiT5=s1360-w1360-h1020-rw",
     "rating": 8.6,
     "field_taught": [
       "Engineering",
@@ -2326,7 +2326,7 @@
       "highest_salary": 4410000.0,
       "placement_rate": 90.0
     },
-    "image_url": "https://www.cmrit.ac.in/wp-content/uploads/2021/06/campus.jpg",
+    "image_url": "https://www.cmrit.ac.in/wp-content/uploads/2021/07/overview.jpg",
     "rating": 8.7,
     "field_taught": [
       "Engineering",
@@ -2437,7 +2437,7 @@
       "highest_salary": 4000000.0,
       "placement_rate": 90.0
     },
-    "image_url": "https://www.nmit.ac.in/images/campus.jpg",
+    "image_url": "https://nitte.edu.in/nmit/img/award/video-banner.jpg",
     "rating": 8.6,
     "field_taught": [
       "Engineering",
@@ -2545,7 +2545,7 @@
       "highest_salary": 3300000.0,
       "placement_rate": 88.0
     },
-    "image_url": "https://www.sirmvit.edu/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr1G_2jtLQEBwScQeOcTYytLHeWfR5Yr_HhbVv_ZMVY3paf-U5hzlBEsOuma9KThHEoWJ3T4EZ44wdJ4ENeIhEgQaWlJQ8TKyCVmOt5LBc5_b7tprn7BEOFjopKcvfa-c03lLlt=s1360-w1360-h1020-rw",
     "rating": 8.5,
     "field_taught": [
       "Engineering",
@@ -2655,7 +2655,7 @@
       "highest_salary": 4500000.0,
       "placement_rate": 91.0
     },
-    "image_url": "https://www.dsce.edu.in/images/campus.jpg",
+    "image_url": "https://www.bangaloreadmission.com/uploads/1/2/7/9/1279976/9778526_orig.jpg",
     "rating": 8.7,
     "field_taught": [
       "Engineering",
@@ -2770,7 +2770,7 @@
       "highest_salary": 3000000.0,
       "placement_rate": 92.0
     },
-    "image_url": "https://www.reva.edu.in/images/campus.jpg",
+    "image_url": "https://revaeduin.s3.ap-south-1.amazonaws.com/assets/frontend/images/about-reva-1.png",
     "rating": 8.6,
     "field_taught": [
       "Engineering",
@@ -2882,7 +2882,7 @@
       "highest_salary": 5400000.0,
       "placement_rate": 90.0
     },
-    "image_url": "https://set.jainuniversity.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/p/AF1QipMP9VluVDGM2aVIokEaQlJ03tYFEfp_hpv9fgSo=s1360-w1360-h1020-rw",
     "rating": 8.8,
     "field_taught": [
       "Engineering",
@@ -2995,7 +2995,7 @@
       "highest_salary": 6500000.0,
       "placement_rate": 90.0
     },
-    "image_url": "https://www.acharya.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/p/AF1QipNgB6WstgpGuA4WX8W6iMHNLlRXMebCBx4oTqMh=s1360-w1360-h1020-rw",
     "rating": 8.7,
     "field_taught": [
       "Engineering",
@@ -3108,7 +3108,7 @@
       "highest_salary": 3000000.0,
       "placement_rate": 88.0
     },
-    "image_url": "https://bit-bangalore.edu.in/images/campus.jpg",
+    "image_url": "https://images.shiksha.com/mediadata/images/1606461255php4NobaM.jpeg",
     "rating": 8.5,
     "field_taught": [
       "Engineering",
@@ -3215,7 +3215,7 @@
       "highest_salary": 2800000.0,
       "placement_rate": 89.0
     },
-    "image_url": "https://bmsit.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/p/AF1QipMiC_0JwKzrienIsZ9JvfVeeyYLbeZoLlbjO_ZI=s1360-w1360-h1020-rw",
     "rating": 8.5,
     "field_taught": [
       "Engineering",
@@ -3325,7 +3325,7 @@
       "highest_salary": 2500000.0,
       "placement_rate": 85.0
     },
-    "image_url": "https://www.eastpoint.ac.in/images/campus.jpg",
+    "image_url": "https://bookuradmission.com/college_banner/East%20Point%20Group%20of%20Institutions_banner210924065748.png",
     "rating": 8.4,
     "field_taught": [
       "Engineering",
@@ -3404,7 +3404,7 @@
       "highest_salary": 600000.0,
       "placement_rate": 65.0
     },
-    "image_url": "https://ddugu.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nruDD8xKoFax0J8Jp8o2WH-q-KT7GOUS5YTnvD388XU_aBthaCw1aXwY4FpwzEuUqw_wPOKokiTLl0KY6iyCC3-8iI3-yl-YsPeJAKdvG0bvfgmrH4eg-rKOXSqJxccJg9u56VkJA=s1360-w1360-h1020-rw",
     "rating": 7.5,
     "field_taught": [
       "Arts",
@@ -3482,7 +3482,7 @@
       "highest_salary": 3500000.0,
       "placement_rate": 95.0
     },
-    "image_url": "https://www.sgpgi.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrKv55AKVbe8PbvYFjek3ZpE5PxPvTzX5NRPVCd_ZKPfavQuQVv7bn984eBQcIArPLpycS8erFqPg8pkYbolfVUkl314MLU2yTDjAKP7XHTb7Gwa4aqzvDw1e6Tn6Bl56ZFFosG=s1360-w1360-h1020-rw",
     "rating": 9.0,
     "field_taught": [
       "Medical Sciences",
@@ -3573,7 +3573,7 @@
       "highest_salary": 1500000.0,
       "placement_rate": 85.0
     },
-    "image_url": "https://www.tmu.ac.in/images/campus.jpg",
+    "image_url": "https://www.tmu.ac.in/assets/img/footer_pages/infra/campus-grid-2.webp",
     "rating": 8.3,
     "field_taught": [
       "Medical Sciences",
@@ -3653,7 +3653,7 @@
       "highest_salary": 800000.0,
       "placement_rate": 70.0
     },
-    "image_url": "https://www.bujhansi.ac.in/images/campus.jpg",
+    "image_url": "https://navbharattimes.indiatimes.com/thumb/93176682/bundelkhand-university-93176682.jpg?imgsize-128080&width=1600&height=900&resizemode=75",
     "rating": 7.8,
     "field_taught": [
       "Engineering",
@@ -3733,7 +3733,7 @@
       "highest_salary": 900000.0,
       "placement_rate": 75.0
     },
-    "image_url": "https://www.csjmu.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqlem24Oj4UGln5qM5gj4iilUplcspNfpL8q_fOKS41od-kaJlNmyQzGdBT37cAY0Hon0wR2GcXCyLAFmjGdu3ItE-DxNbaWzZXC1p9-7FifMTIYTbQx5ixDKd16u_msqs1l8FE=s1360-w1360-h1020-rw",
     "rating": 7.9,
     "field_taught": [
       "Arts",
@@ -3811,7 +3811,7 @@
       "highest_salary": 1500000.0,
       "placement_rate": 80.0
     },
-    "image_url": "https://www.erauniversity.in/images/campus.jpg",
+    "image_url": "https://erauniversity.in/images/banner/bg.jpg",
     "rating": 8.0,
     "field_taught": [
       "Medical Sciences",
@@ -3887,7 +3887,7 @@
       "highest_salary": 700000.0,
       "placement_rate": 70.0
     },
-    "image_url": "https://www.ccsuniversity.ac.in/images/campus.jpg",
+    "image_url": "https://www.mycampusreview.com/images/postgallery/1690369965ccsuniversity.jpg",
     "rating": 7.8,
     "field_taught": [
       "Agriculture",
@@ -3965,7 +3965,7 @@
       "highest_salary": 2500000.0,
       "placement_rate": 95.0
     },
-    "image_url": "https://www.kgmu.org/images/campus.jpg",
+    "image_url": "https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/09/15/Pictures/_d65e31ba-d794-11e9-ab55-f69b78c5f02d.jpg",
     "rating": 9.2,
     "field_taught": [
       "Medical Sciences",
@@ -4054,7 +4054,7 @@
       "highest_salary": 2000000.0,
       "placement_rate": 90.0
     },
-    "image_url": "https://www.bhu.ac.in/images/campus.jpg",
+    "image_url": "https://educationpost.in/_next/image?url=https%3A%2F%2Fapi.educationpost.in%2Fs3-images%2F1722936537737-File%20-%202024-08-06T142611.075.jpg&w=3840&q=75",
     "rating": 9.5,
     "field_taught": [
       "Medical Sciences",
@@ -4145,7 +4145,7 @@
       "highest_salary": 1800000.0,
       "placement_rate": 85.0
     },
-    "image_url": "https://www.amu.ac.in/images/campus.jpg",
+    "image_url": "https://sc0.blr1.cdn.digitaloceanspaces.com/article/167242-lgziwtuzqx-1638886706.jpeg",
     "rating": 9.3,
     "field_taught": [
       "Medical Sciences",
@@ -4223,7 +4223,7 @@
       "highest_salary": 600000.0,
       "placement_rate": 65.0
     },
-    "image_url": "https://www.dbrau.ac.in/images/campus.jpg",
+    "image_url": "https://admission.agrauniv.online/dbru.jpeg",
     "rating": 7.7,
     "field_taught": [
       "Arts",
@@ -4301,7 +4301,7 @@
       "highest_salary": 1500000.0,
       "placement_rate": 80.0
     },
-    "image_url": "https://www.sgrru.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4noK0j3mGqpyVQ2cg-2UTK8ZknGkD9vy6cdalKzJ1We5OVhAhYEwsRUAOCGceU_JX6F1w962PWwACXBmXrgMlr36hXSTqDfA-yJxyuMkvjU1MQkxHuO_2scJo4RH4dVcoC2WS30jnA=s1360-w1360-h1020-rw",
     "rating": 8.1,
     "field_taught": [
       "Medical Sciences",
@@ -4378,7 +4378,7 @@
       "highest_salary": 2000000.0,
       "placement_rate": 90.0
     },
-    "image_url": "https://www.hnbumu.ac.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrle6_Zfi6mpNUVscu2fS_sd0zqGc6MeEqSRconAqp9CiqylTBbe2qPbOFKjkIRrmcm8F6uzs50mB3nyaWQGToqTHbYzaxBAugmmX7mIQD4AQ1Ru2m-K9xt4TPg5a8XywxM1CnP=s1360-w1360-h1020-rw",
     "rating": 8.4,
     "field_taught": [
       "Medical Sciences",
@@ -4454,7 +4454,7 @@
       "highest_salary": 1500000.0,
       "placement_rate": 85.0
     },
-    "image_url": "https://www.srhu.edu.in/images/campus.jpg",
+    "image_url": "https://lh3.googleusercontent.com/p/AF1QipMI3Os89mRCh5EeZD3YKkQK517GHPdPXrSE3prE=s1360-w1360-h1020-rw",
     "rating": 8.3,
     "field_taught": [
       "Medical Sciences",

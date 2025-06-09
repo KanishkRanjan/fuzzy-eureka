@@ -30,7 +30,7 @@ def save_to_mongodb(data, db_name='shiksha_data', collection_name='institutions'
 
 
 # Sample data for M.S. Ramaiah Institute of Technology (MSRIT)
-with open('universities_updated.json', 'r') as f:
+with open('updated.json', 'r') as f:
     set = {}
     institutions_data = json.load(f)
     for institution_data in institutions_data:
